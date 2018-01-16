@@ -1,0 +1,714 @@
+/*-------------------------------------------------------
+DEFAULT STUFF
+
+font family: Open Sans
+
+colors:
+PIRO DISCO BALL(blue):      #36CAF7
+FROSTBITE(pink):            #E439A5
+HARVEST GOLD(yellow):       #D39308
+black and white
+
+
+-------------------------------------------------------*/
+
+/* general */
+html, body 
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: "Open Sans", "sans-serif";
+}
+
+h3 
+{
+    text-transform: none;
+}
+
+p
+{
+    color: gray;
+    font: 17px;
+    font-weight: 300;
+}
+
+
+
+
+
+/*-------------------------------------------------------
+generic buttons style
+-------------------------------------------------------*/
+.btn-general 
+{
+    border-color: white;
+    border-width: 3px;
+    border-radius: 0;
+    padding: 7px 19px;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white
+{
+    border-color: white;
+    color: white;
+}
+
+.btn-white:hover, 
+.btn-white:focus 
+{
+    background-color: white;
+    color: black;
+}
+
+.btn-aqua 
+{
+    border-color: #01bafd;
+    color: #01bafd;
+}
+
+.btn-aqua:hover,
+.btn-aqua:focus
+{
+    background-color: #01bafd;
+    color: white;
+}
+
+/*-------------------------------------------------------
+general custome parallax class
+-------------------------------------------------------*/
+.bg-parallax
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*-------------------------------------------------------
+animation
+-------------------------------------------------------*/
+#home-cover, #home-heading, #home-btn
+{
+    animation-duration: 0.5s;
+}
+
+#home-cover 
+{
+    animation-delay: 0.1s;
+}
+
+#home-heading
+{
+    animation-delay: 0.1s;
+}
+
+#home-btn
+{
+    animation-delay: 0.75s;
+}
+
+
+/*-------------------------------------------------------
+generic content style
+-------------------------------------------------------*/
+.content-box
+{
+    padding: 60px 0 60px 0;
+}
+
+.content-title h3
+{
+    font-size: 47px;
+    font-weight: 300;
+    text-align: center;
+    font-family: "permanent marker";
+}
+
+.content-title-white h3
+{
+    color: white;
+    text-align: center;
+}
+
+.content-title-underline 
+{
+    width: 61px;
+    height: 3px;
+    background-color: #01bafd;
+    margin: 0 auto 31px auto;
+}
+
+
+/*-------------------------------------------------------
+generic social media icons style
+-------------------------------------------------------*/
+.social-list
+{
+    padding-left: 0;
+}
+
+.social-list li
+{
+    list-style: none;
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    margin-right: 7px;
+    margin-top: 11px;
+}
+
+.social-icon i 
+{
+    font-size: 29px;
+}
+
+.icon-gray i 
+{
+    color: darkslategray;
+}
+
+.icon-white i 
+{
+    color: white;
+}
+
+.social-icon i:hover
+{
+    color: #01bafd;
+}
+
+
+
+/*-------------------------------------------------------
+home page welcome section
+-------------------------------------------------------*/
+#home
+{
+    height: 100%;
+}
+
+
+.blur 
+{
+    background-image: url("../img/girlshoutingfilter1.JPG");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    filter: blur(3px);
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+}
+
+
+#home-cover
+{
+    height: 100%;
+    border: 13px solid gray;
+}
+
+#home-content-box
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#home-heading h3
+{
+    font-family: "permanent marker";
+    color: #FFF;
+    text-align: center;
+    font-size: 91px;
+    text-shadow: 5px 3px 0px #000;
+    margin: 20px 0 20px 0;
+    
+}
+
+.art h2
+{
+    font-family: "permanent marker";
+    font-size: 41px;
+    color: #000;
+}
+
+.art
+{
+    padding: 71px;
+}
+
+.right-icon
+{
+    float: right;
+    font-size: 17em;
+    vertical-align: top;
+    padding-right: 71px;
+    padding-left: 71px;
+    color: #01bafd;
+    text-shadow: 5px 5px 0px black;
+}
+
+.left-icon
+{
+    float: left;
+    font-size: 17em;
+    vertical-align: top;
+    padding-right: 71px;
+    padding-left: 71px;
+    color: #01bafd;
+    text-shadow: 5px 5px 0px black;
+}
+
+/*-------------------------------------------------------
+navigation bar
+-------------------------------------------------------*/
+.navbar-brand
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar
+{
+    margin-top: 7px;
+    transition: all .5s ease-in-out;
+    background-color: rgba(0,0,0,0.79);
+    padding-top: 11px;
+}
+
+.on-scroll-top-nav
+{
+    background: rgba(0,0,0,0.7);
+    padding: 7px 0;
+}
+
+.custome-nav-wrapper
+{
+    padding-right: 51px;
+    padding-left: 71px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav
+{
+    float: right;
+}
+
+.navbar-nav > li > a 
+{
+    margin-bottom: 0;
+    color: white;
+    font-size: 17px;
+    text-transform: none;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus
+{
+    background: none;
+    color: #01bafd;
+}
+
+.navbar-toggle
+{
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar
+{
+    background-color: white;
+}
+
+.navbar-collapse
+{
+    max-height: none !important;
+}
+
+.navbar-nav a.current
+{
+    background: #01bafd;
+    color: black;
+}
+
+
+/*-------------------------------------------------------
+footer section
+-------------------------------------------------------*/
+#footer
+{
+    background-color: dimgray;
+}
+
+#copyrights p
+{
+    color: white;
+    margin-bottom: 0;
+    margin-left: 11px;
+}
+
+#footer-left p
+{
+    color: white;
+}
+
+#footer-left h3
+{
+    color: white;
+}
+
+
+/*-------------------------------------------------------
+ABOUT US PAGE
+-------------------------------------------------------*/
+#about-home
+{
+    height: 65%;
+}
+
+#dig
+{
+    background-image: url("../img/fullguyholdingsignfilter.JPG");
+    float: left;
+    background-position: left;
+    background-size: contain;
+    width: 50%;
+    height: 70px;
+    border-top: 900px solid transparent;
+    border-right: 200px solid white;
+}
+
+#right-underline
+{
+    width: 61px;
+    height: 3px;
+    background-color: #01bafd;
+    margin: 0 23% 0 auto;   
+}
+
+#about-home-cover
+{
+    height: 100%;
+}
+
+#about-home-content-box
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-home-content-box-inner
+{
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+
+#about-home-heading h3
+{
+    font-family: "permanent marker";
+    color: #FFF;
+    text-align: left;
+    font-size: 71px;
+    text-shadow: 5px 3px 0px #000;
+    margin: 20px 0 20px 0;   
+}
+
+.art2
+{
+    padding-bottom: 23px;
+    padding-top: 23px;
+    font-size: 17px;
+}
+
+.art3
+{
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 23px;
+    padding-top: 0;
+    font-size: 17px;
+}
+
+
+.mission-headline h2
+{
+    font-size: 41px;
+    text-align: center;
+    font-family: "Permanent Marker";
+}
+
+.about-headline2 h3
+{
+    text-align: center;
+    font-family: "permanent marker";
+    font-size: 31px;
+}
+.about-blur 
+{
+    background-image: url("../img/serenafilter2.JPG");
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+    position: absolute;
+    filter: blur(0px);
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 65%;
+}
+
+/*-------------------------------------------------------
+cal of events page
+-------------------------------------------------------*/
+
+.cal-blur 
+{
+    background-image: url("../img/marypirg-girl-holding-sign.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    position: absolute;
+    filter: blur(0px);
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 65%;
+}
+
+.cal-style
+{
+    padding-right: 11%;
+    padding-left: 11%;
+    padding-bottom: 283px;
+}
+
+
+
+/*-------------------------------------------------------
+get involved page
+-------------------------------------------------------*/
+.inv-blur 
+{
+    background-image: url("../img/guytalkingps.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    filter: blur(0px);
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 65%;
+}
+
+{
+    font-size: 70px;
+}
+.te
+{
+    padding-bottom: 31px;
+}
+
+.tex a
+{
+    padding-left: 0;
+    margin-left: 0;
+    font-family: "permanent marker";
+    color: #01bafd;
+    text-shadow: 1px 3.7px 0px #000;
+    font-size: 37px;
+    text-decoration-line: none;
+    text-align-last: center;
+}
+
+.tex a:hover
+{
+    color: black;
+    text-shadow: 1px 3.7px 0px #01bafd;
+}
+
+.icon
+{
+    font-size: 91px;
+    text-align: center;
+    text-shadow: 2px 2px 0px #01bafd;
+}
+
+.icon:hover
+{
+    color: #01bafd;
+    text-shadow: 2px 2px 0px black;
+}
+
+/*volunteer section*/
+.vol-headline
+{
+    font-size: 61px;
+    font-family: "permanent marker";
+    font-weight: 600;
+    color: #f10187;
+    text-shadow: 2px 2px 0px black;
+    text-align: center;
+}
+
+.vol-headline h3
+{
+    text-align: left;
+    padding-bottom: 31px;
+    font-size: 37px;
+    color: #01bafd;
+}
+
+.vol-headline h2
+{
+    text-align: left;
+    padding-bottom: 31px;
+    font-size: 37px;
+    color: #f10187;
+}
+
+.vol-body
+{
+    padding-top: 23px;
+    font-size: 17px;
+}
+
+#apply-now-style1
+{
+    font-size: 23px;
+    text-decoration: none;
+    font-family: "permanent marker";
+    color: #01bafd;
+}
+
+#apply-now-style1:hover, 
+#apply-now-style2:hover 
+{
+    color: blue;
+}
+#apply-now-style2
+{
+    font-size: 61px;
+    text-decoration: none;
+    font-family: "permanent marker";
+    color: #01bafd;
+}
+
+.sec-pad
+{
+    padding-top: 141px;
+}
+
+#jobs-row-pad
+{
+    padding-bottom: 283px;
+}
+/*-------------------------------------------------------
+Campaigns page
+-------------------------------------------------------*/
+.camp-blur 
+{
+    background-image: url("../img/votetabletwitterfilter.JPG");
+    background-position: bottom;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    filter: blur(0px);
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 65%;
+}
+
+
+.camp-headline
+{
+    font-family: "permanent marker";
+    font-size: 51px;
+    color: #01bafd;
+    text-shadow: 1px 3px 0 black;
+    padding-left: 7%;
+}
+
+.camp-p
+{
+    font-size: 17px;
+    padding-right: 13%;
+    padding-left: 13%;
+    padding-bottom: 83px;
+}
+
+/*-------------------------------------------------------
+contact us page
+-------------------------------------------------------*/
+.cont-blur 
+{
+    background-image: url("../img/pirggrouppic.JPG");
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    filter: blur(0px);
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 65%;
+}
+
+#cont-head h3
+{
+    padding: 19px;
+    font-family: "permanent marker";
+    color: black;
+    text-shadow: 2px 2px 0px #f10187;
+    font-size: 41px;
+    
+}
+#contact-list li
+{
+    display: inline-block;
+}
+
+.contact-icon
+{
+    font-size: 51px;
+    padding: 29px;
+    color: #f10187;
+    text-shadow: 2px 2px 0px black;
+}
+
+#cont-left-body p
+{
+    font-size: 25.7px;
+    color: black;
+    padding: 37px;
+}
+
+#email-highlight{
+    color: #01bafd;
+    text-shadow: .5px .5px 0 black;
+}
