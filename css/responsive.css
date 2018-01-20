@@ -1,4 +1,6 @@
-/*this file is for bootstrap media queries*/
+/*-------------------------------------------------------
+this file is for bootstrap media queries
+-------------------------------------------------------*/
 
 
 @media (min-width: 728px) and (max-width: 991px)
@@ -14,7 +16,7 @@
         height: 115px;
     }
 
-/***************home page small devices style***************/
+/*************** home page ***************/
         #home-heading h3
         {
             font-size: 79px;
@@ -36,7 +38,7 @@
         }
     
     
-/***************about us page small devices style***************/
+/*************** about us page ***************/
     #diagonal-pic
     {
         width: 0%;
@@ -57,7 +59,7 @@
     }
 
     
-/***************get involved page small devices style***************/
+/*************** get involved page ***************/
     .tex a
     {
         font-size: 29px;
@@ -85,7 +87,9 @@
     {
         font-size: 51px;
     }
-}/*end of 768px-991px*/
+}
+/*end of 768px-991px*/
+
 
 @media (min-width: 684px) and (max-width: 727px)
 {
@@ -100,7 +104,7 @@
         height: 105px;
     }
     
-/***************home page small devices style***************/
+/***************home page***************/
         #home-heading h3
         {
             font-size: 73px;
@@ -122,7 +126,7 @@
         }
 
     
-/***************about us page small devices style***************/
+/***************about us page ***************/
     #diagonal-pic
     {
         width: 0%;
@@ -143,7 +147,7 @@
     }
 
     
-/***************get involved page small devices style***************/
+/***************get involved page ***************/
     .tex a
     {
         font-size: 27px;
@@ -172,8 +176,7 @@
         font-size: 51px;
     }
     
-}/*end of 684px-727px*/
-
+}
 
 @media (min-width: 570px) and (max-width: 683px)
 {
@@ -187,7 +190,7 @@
     {
         height: 100px;
     }
-/***************home page small devices style***************/
+/***************home page ***************/
         #home-heading h3
         {
             font-size: 63px;
@@ -208,7 +211,7 @@
             font-size: 13em;
         }
 
-/***************about us page small devices style***************/
+/***************about us page ***************/
     #diagonal-pic
     {
         width: 0%;
@@ -229,7 +232,7 @@
     }
 
     
-/***************get involved page small devices style***************/
+/***************get involved page ***************/
     .tex a
     {
         font-size: 51px;
@@ -258,8 +261,7 @@
         font-size: 45px;
     }
     
-}/*end of 570px-683px*/
-
+}
 
 
 
@@ -274,7 +276,7 @@
     {
         height: 80px;
     }  
-/***************home page small devices style***************/
+/***************home page ***************/
         #home-heading h3
         {
             font-size: 53px;
@@ -285,21 +287,21 @@
             font-size: 31px;
         }
     
-    .art
-    {
-        padding: 17px;
-    }
-    .right-icon
+        .art
+        {
+            padding: 17px;
+        }
+        .right-icon
         {
             font-size: 7em;
         }
 
-    .left-icon
+        .left-icon            
         {
             font-size: 7em;
         }
 
-/***************about us page small devices style***************/
+/***************about us page ***************/
     #diagonal-pic
     {
         width: 0%;
@@ -320,7 +322,7 @@
     }
 
     
-/***************get involved page small devices style***************/
+/***************get involved page e***************/
     .tex a
     {
         font-size: 51px;
@@ -347,9 +349,32 @@
 
     #apply-now-style3
     {
-        font-size: 45px;
+        font-size: 35px;
     }
     
+    .sub-sec-body
+    {
+        font-size: 13px;
+    }
+
+/***************campaign page ***************/
+    .camp-headline
+    {
+        font-size: 41px;
+        padding-left: 1%;
+
+    }
+
+    .camp-p
+    {
+        font-size: 13px;
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-bottom: 53px;
+    }
+
+    
+/***************contact page ***************/
     #cont-head h3
     {
         font-size: 35px;
@@ -362,4 +387,122 @@
         color: black;
         padding: 37px;
     }
-}/*end of 569px*/
+}
+
+
+
+@media (max-width: 320px)
+{
+    .generic-cover-heading h3
+    {
+        font-size: 41px;
+    }
+    
+    .navbar-brand img
+    {
+        height: 75px;
+    }  
+/***************home page ***************/
+        #home-heading h3
+        {
+            font-size: 53px;
+        }
+        .btn-general
+        {
+            font-size: 13px;
+        }
+    
+        .content-title h3
+        {
+            font-size: 31px;
+        }
+
+        .art h2
+        {
+            font-size: 21px;
+        }
+    
+        .art
+        {
+            padding: 13px;
+        }
+    
+        .right-icon
+        {
+            font-size: 5.7em;
+        }
+
+    .left-icon
+        {
+            font-size: 5.7em;
+        }
+
+/***************about us page ***************/
+    #diagonal-pic
+    {
+        width: 0%;
+        height: 0;
+        border-top: 0 solid transparent;
+        border-right: 0 solid transparent;
+    }
+    
+    #right-underline
+    {
+        margin: 0 auto 0 auto;   
+    }
+
+    .art2, .art3
+    {
+        padding-right: 9%;
+        padding-left: 9%;
+    }
+
+    
+/***************get involved page ***************/
+    .tex a
+    {
+        font-size: 51px;
+        padding-top: 0;
+    }
+    
+    .icon i
+    {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    
+    .sub-sec-headline
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    #apply-now-style2
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3
+    {
+        font-size: 35px;
+    }
+    
+    .sub-sec-headline h2
+    {
+        font-size: 31px;    
+    }
+
+/***************contact page ***************/    
+    #cont-head h3
+    {
+        font-size: 27px;
+    }
+    
+    #cont-left-body p
+    {
+        font-size: 13px;
+        color: black;
+        padding: 37px;
+    }   
+}
