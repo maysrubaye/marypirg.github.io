@@ -1,14 +1,9 @@
 /*-------------------------------------------------------
-DEFAULT STUFF
-
-font family: Open Sans
+font family: Open Sans, permanent marker
 
 colors:
-PIRO DISCO BALL(blue):      #36CAF7
-FROSTBITE(pink):            #E439A5
-HARVEST GOLD(yellow):       #D39308
-black and white
-
+blue:                       #01bafd
+pink:                       #f10187
 
 -------------------------------------------------------*/
 
@@ -20,7 +15,7 @@ html, body
 
 body
 {
-    font-family: "Open Sans", "sans-serif";
+    font-family: "Open Sans";
 }
 
 h3 
@@ -64,19 +59,6 @@ generic buttons style
 {
     background-color: white;
     color: black;
-}
-
-.btn-aqua 
-{
-    border-color: #01bafd;
-    color: #01bafd;
-}
-
-.btn-aqua:hover,
-.btn-aqua:focus
-{
-    background-color: #01bafd;
-    color: white;
 }
 
 /*-------------------------------------------------------
