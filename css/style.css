@@ -184,96 +184,6 @@ generic social media icons style
 }
 
 
-
-/*-------------------------------------------------------
-home page welcome section
--------------------------------------------------------*/
-#home
-{
-    height: 100%;
-}
-
-
-.blur 
-{
-    background-image: url("../img/girlshoutingfilter1.JPG");
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    position: absolute;
-    filter: blur(3px);
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-}
-
-
-#home-cover
-{
-    height: 100%;
-    border: 13px solid gray;
-}
-
-#home-content-box
-{
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-
-#home-content-box-inner
-{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-
-#home-heading h3
-{
-    font-family: "permanent marker";
-    color: #FFF;
-    text-align: center;
-    font-size: 91px;
-    text-shadow: 5px 3px 0px #000;
-    margin: 20px 0 20px 0;
-    
-}
-
-.art h2
-{
-    font-family: "permanent marker";
-    font-size: 41px;
-    color: #000;
-}
-
-.art
-{
-    padding: 71px;
-}
-
-.right-icon
-{
-    float: right;
-    font-size: 17em;
-    vertical-align: top;
-    padding-right: 71px;
-    padding-left: 71px;
-    color: #01bafd;
-    text-shadow: 5px 5px 0px black;
-}
-
-.left-icon
-{
-    float: left;
-    font-size: 17em;
-    vertical-align: top;
-    padding-right: 71px;
-    padding-left: 71px;
-    color: #01bafd;
-    text-shadow: 5px 5px 0px black;
-}
-
 /*-------------------------------------------------------
 navigation bar
 -------------------------------------------------------*/
@@ -285,7 +195,6 @@ navigation bar
 
 .navbar
 {
-    margin-top: 7px;
     transition: all .5s ease-in-out;
     background-color: rgba(0,0,0,0.79);
     padding-top: 11px;
@@ -299,8 +208,8 @@ navigation bar
 
 .custome-nav-wrapper
 {
-    padding-right: 51px;
-    padding-left: 71px;
+    padding-right: 5%;
+    padding-left: 2%;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -374,16 +283,131 @@ footer section
     color: white;
 }
 
-
 /*-------------------------------------------------------
-ABOUT US PAGE
+generic page heading graphics and titles
 -------------------------------------------------------*/
-#about-home
+.generic-home
 {
     height: 65%;
 }
 
-#dig
+.generic-content-box
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.generic-content-box-inner
+{
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+
+.generic-cover-heading h3
+{
+    font-family: "permanent marker";
+    color: #FFF;
+    text-align: left;
+    font-size: 71px;
+    text-shadow: 5px 3px 0px #000;
+    margin: 20px 0 20px 0;   
+}
+
+
+/*-------------------------------------------------------
+home page welcome section
+-------------------------------------------------------*/
+#home
+{
+    height: 100%;
+}
+
+#home-cover
+{
+    height: 100%;
+    background-image: url("../img/blured-background.png");
+    background-size: cover;
+}
+
+#home-content-box
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#home-heading h3
+{
+    font-family: "permanent marker";
+    color: #FFF;
+    text-align: center;
+    font-size: 91px;
+    text-shadow: 5px 3px 0px #000;
+    margin: 20px 0 20px 0;
+    
+}
+
+.art h2
+{
+    font-family: "permanent marker";
+    font-size: 41px;
+    color: #000;
+}
+
+.art
+{
+    padding: 71px;
+}
+
+.right-icon
+{
+    float: right;
+    font-size: 17em;
+    padding-right: 7%;
+    padding-left: 5%;
+    color: #01bafd;
+    text-shadow: 5px 5px 0px black;
+}
+
+.left-icon
+{
+    float: left;
+    font-size: 17em;
+    padding-right: 7%;
+    padding-left: 5%;
+    color: #01bafd;
+    text-shadow: 5px 5px 0px black;
+}
+
+/*-------------------------------------------------------
+ABOUT US PAGE
+-------------------------------------------------------*/
+#about-cover
+{
+    height: 100%;
+    background-image: url("../img/serenafilter2.JPG");
+    background-size: cover;
+    background-position: top;
+}
+
+#right-underline
+{
+    width: 61px;
+    height: 3px;
+    background-color: #01bafd;
+    margin: 0 23% 0 auto;   
+}
+
+#diagonal-pic
 {
     background-image: url("../img/fullguyholdingsignfilter.JPG");
     float: left;
@@ -395,48 +419,15 @@ ABOUT US PAGE
     border-right: 200px solid white;
 }
 
-#right-underline
-{
-    width: 61px;
-    height: 3px;
-    background-color: #01bafd;
-    margin: 0 23% 0 auto;   
-}
-
-#about-home-cover
-{
-    height: 100%;
-}
-
-#about-home-content-box
-{
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-
-#about-home-content-box-inner
-{
-    display: table-cell;
-    vertical-align: bottom;
-}
-
-
-#about-home-heading h3
-{
-    font-family: "permanent marker";
-    color: #FFF;
-    text-align: left;
-    font-size: 71px;
-    text-shadow: 5px 3px 0px #000;
-    margin: 20px 0 20px 0;   
-}
 
 .art2
 {
     padding-bottom: 23px;
     padding-top: 23px;
     font-size: 17px;
+    padding-right: 3%;
+    padding-left: 3%;
+
 }
 
 .art3
@@ -454,6 +445,8 @@ ABOUT US PAGE
     font-size: 41px;
     text-align: center;
     font-family: "Permanent Marker";
+    color: black;
+    padding-bottom: 0px;
 }
 
 .about-headline2 h3
@@ -462,41 +455,20 @@ ABOUT US PAGE
     font-family: "permanent marker";
     font-size: 31px;
 }
-.about-blur 
-{
-    background-image: url("../img/serenafilter2.JPG");
-    background-size: cover;
-    background-position: top;
-    overflow: hidden;
-    position: absolute;
-    filter: blur(0px);
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-    height: 65%;
-}
 
 /*-------------------------------------------------------
 cal of events page
 -------------------------------------------------------*/
-
-.cal-blur 
+#cal-events-cover
 {
+    height: 100%;
     background-image: url("../img/marypirg-girl-holding-sign.jpeg");
     background-size: cover;
     background-position: bottom;
-    overflow: hidden;
-    position: absolute;
-    filter: blur(0px);
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-    height: 65%;
 }
 
-.cal-style
+
+#cal-style
 {
     padding-right: 11%;
     padding-left: 11%;
@@ -508,27 +480,12 @@ cal of events page
 /*-------------------------------------------------------
 get involved page
 -------------------------------------------------------*/
-.inv-blur 
+#get-inv-cover
 {
+    height: 100%;
     background-image: url("../img/guytalkingps.jpg");
-    background-position: center;
     background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    filter: blur(0px);
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-    height: 65%;
-}
-
-{
-    font-size: 70px;
-}
-.te
-{
-    padding-bottom: 31px;
+    background-position: center;  
 }
 
 .tex a
@@ -540,7 +497,7 @@ get involved page
     text-shadow: 1px 3.7px 0px #000;
     font-size: 37px;
     text-decoration-line: none;
-    text-align-last: center;
+    text-align: center;
 }
 
 .tex a:hover
@@ -551,19 +508,22 @@ get involved page
 
 .icon
 {
-    font-size: 91px;
     text-align: center;
+}
+
+.icon i
+{
+    font-size: 91px;
     text-shadow: 2px 2px 0px #01bafd;
 }
 
-.icon:hover
+.icon i:hover
 {
     color: #01bafd;
     text-shadow: 2px 2px 0px black;
 }
 
-/*volunteer section*/
-.vol-headline
+.sub-sec-headline
 {
     font-size: 61px;
     font-family: "permanent marker";
@@ -573,7 +533,7 @@ get involved page
     text-align: center;
 }
 
-.vol-headline h3
+.sub-sec-headline h3, h2
 {
     text-align: left;
     padding-bottom: 31px;
@@ -581,15 +541,12 @@ get involved page
     color: #01bafd;
 }
 
-.vol-headline h2
+.sub-sec-headline h2
 {
-    text-align: left;
-    padding-bottom: 31px;
-    font-size: 37px;
     color: #f10187;
 }
 
-.vol-body
+.sub-sec-body
 {
     padding-top: 23px;
     font-size: 17px;
@@ -608,7 +565,16 @@ get involved page
 {
     color: blue;
 }
+
 #apply-now-style2
+{
+    font-size: 61px;
+    text-decoration: none;
+    font-family: "permanent marker";
+    color: #01bafd;
+}
+
+#apply-now-style3
 {
     font-size: 61px;
     text-decoration: none;
@@ -628,21 +594,13 @@ get involved page
 /*-------------------------------------------------------
 Campaigns page
 -------------------------------------------------------*/
-.camp-blur 
+#camp-cover
 {
+    height: 100%;
     background-image: url("../img/votetabletwitterfilter.JPG");
-    background-position: bottom;
     background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    filter: blur(0px);
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-    height: 65%;
+    background-position: top;
 }
-
 
 .camp-headline
 {
@@ -664,19 +622,12 @@ Campaigns page
 /*-------------------------------------------------------
 contact us page
 -------------------------------------------------------*/
-.cont-blur 
+#contact-cover
 {
+    height: 100%;
     background-image: url("../img/pirggrouppic.JPG");
-    background-position: top;
     background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    filter: blur(0px);
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-    height: 65%;
+    background-position: top;
 }
 
 #cont-head h3
@@ -686,8 +637,8 @@ contact us page
     color: black;
     text-shadow: 2px 2px 0px #f10187;
     font-size: 41px;
-    
 }
+
 #contact-list li
 {
     display: inline-block;
