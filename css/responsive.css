@@ -1,0 +1,365 @@
+/*this file is for bootstrap media queries*/
+
+
+@media (min-width: 728px) and (max-width: 991px)
+{
+   
+    .generic-cover-heading h3
+    {
+        font-size: 61px;
+    }
+    
+    .navbar-brand img
+    {
+        height: 115px;
+    }
+
+/***************home page small devices style***************/
+        #home-heading h3
+        {
+            font-size: 79px;
+        }
+
+        .art h2
+        {
+            font-size: 37px;
+        }
+
+    .right-icon
+        {
+            font-size: 13em;
+        }
+
+    .left-icon
+        {
+            font-size: 13em;
+        }
+    
+    
+/***************about us page small devices style***************/
+    #diagonal-pic
+    {
+        width: 0%;
+        height: 0;
+        border-top: 0 solid transparent;
+        border-right: 0 solid transparent;
+    }
+    
+    #right-underline
+    {
+        margin: 0 auto 0 auto;   
+    }
+
+    .art2
+    {
+        padding-right: 11%;
+        padding-left: 11%;
+    }
+
+    
+/***************get involved page small devices style***************/
+    .tex a
+    {
+        font-size: 29px;
+    }
+
+    .icon
+    {
+        font-size: 71px;
+        float: left;
+    }
+    
+    .sub-sec-headline
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    #apply-now-style2
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3
+    {
+        font-size: 51px;
+    }
+}/*end of 768px-991px*/
+
+@media (min-width: 684px) and (max-width: 727px)
+{
+       
+    .generic-cover-heading h3
+    {
+        font-size: 51px;
+    }
+
+    .navbar-brand img
+    {
+        height: 105px;
+    }
+    
+/***************home page small devices style***************/
+        #home-heading h3
+        {
+            font-size: 73px;
+        }
+
+        .art h2
+        {
+            font-size: 31px;
+        }
+
+    .right-icon
+        {
+            font-size: 13em;
+        }
+
+    .left-icon
+        {
+            font-size: 13em;
+        }
+
+    
+/***************about us page small devices style***************/
+    #diagonal-pic
+    {
+        width: 0%;
+        height: 0;
+        border-top: 0 solid transparent;
+        border-right: 0 solid transparent;
+    }
+    
+    #right-underline
+    {
+        margin: 0 auto 0 auto;   
+    }
+
+    .art2
+    {
+        padding-right: 11%;
+        padding-left: 11%;
+    }
+
+    
+/***************get involved page small devices style***************/
+    .tex a
+    {
+        font-size: 27px;
+    }
+
+    .icon
+    {
+        font-size: 71px;
+        float: left;
+    }
+    
+    .sub-sec-headline
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    #apply-now-style2
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3
+    {
+        font-size: 51px;
+    }
+    
+}/*end of 684px-727px*/
+
+
+@media (min-width: 570px) and (max-width: 683px)
+{
+           
+    .generic-cover-heading h3
+    {
+        font-size: 41px;
+    }
+    
+    .navbar-brand img
+    {
+        height: 100px;
+    }
+/***************home page small devices style***************/
+        #home-heading h3
+        {
+            font-size: 63px;
+        }
+
+        .art h2
+        {
+            font-size: 31px;
+        }
+
+    .right-icon
+        {
+            font-size: 13em;
+        }
+
+    .left-icon
+        {
+            font-size: 13em;
+        }
+
+/***************about us page small devices style***************/
+    #diagonal-pic
+    {
+        width: 0%;
+        height: 0;
+        border-top: 0 solid transparent;
+        border-right: 0 solid transparent;
+    }
+    
+    #right-underline
+    {
+        margin: 0 auto 0 auto;   
+    }
+
+    .art2
+    {
+        padding-right: 11%;
+        padding-left: 11%;
+    }
+
+    
+/***************get involved page small devices style***************/
+    .tex a
+    {
+        font-size: 51px;
+    }
+    
+        .icon i
+    {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .sub-sec-headline
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    #apply-now-style2
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3
+    {
+        font-size: 45px;
+    }
+    
+}/*end of 570px-683px*/
+
+
+
+
+@media (max-width: 569px)
+{
+    .generic-cover-heading h3
+    {
+        font-size: 41px;
+    }
+    
+    .navbar-brand img
+    {
+        height: 80px;
+    }  
+/***************home page small devices style***************/
+        #home-heading h3
+        {
+            font-size: 53px;
+        }
+
+        .art h2
+        {
+            font-size: 31px;
+        }
+    
+    .art
+    {
+        padding: 17px;
+    }
+    .right-icon
+        {
+            font-size: 7em;
+        }
+
+    .left-icon
+        {
+            font-size: 7em;
+        }
+
+/***************about us page small devices style***************/
+    #diagonal-pic
+    {
+        width: 0%;
+        height: 0;
+        border-top: 0 solid transparent;
+        border-right: 0 solid transparent;
+    }
+    
+    #right-underline
+    {
+        margin: 0 auto 0 auto;   
+    }
+
+    .art2, .art3
+    {
+        padding-right: 9%;
+        padding-left: 9%;
+    }
+
+    
+/***************get involved page small devices style***************/
+    .tex a
+    {
+        font-size: 51px;
+        padding-top: 0;
+    }
+    
+    .icon i
+    {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    
+    .sub-sec-headline
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    #apply-now-style2
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3
+    {
+        font-size: 45px;
+    }
+    
+    #cont-head h3
+    {
+        font-size: 35px;
+    }
+
+    
+    #cont-left-body p
+    {
+        font-size: 19px;
+        color: black;
+        padding: 37px;
+    }
+}/*end of 569px*/
