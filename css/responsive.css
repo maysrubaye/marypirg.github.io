@@ -417,10 +417,9 @@ css media queries
 /***************home page ***************/
     #home
     {
-        background-image: url("../img/cropped-cover.JPG");
-        background-size: cover;
+        background: url("../img/cropped-cover.JPG");
+        background-size: 100% 100%;
         background-position: center;
-        height: 100%;
     }
     
     
