@@ -1,5 +1,5 @@
 /*-------------------------------------------------------
-this file is for bootstrap media queries
+css media queries
 -------------------------------------------------------*/
 
 
@@ -52,12 +52,11 @@ this file is for bootstrap media queries
         margin: 0 auto 0 auto;   
     }
 
-    .art2
+    .art2, .art3
     {
         padding-right: 11%;
         padding-left: 11%;
     }
-
     
 /*************** get involved page ***************/
     .tex a
@@ -319,6 +318,7 @@ this file is for bootstrap media queries
     {
         padding-right: 9%;
         padding-left: 9%;
+        font-size: 15px;
     }
 
     
@@ -403,7 +403,7 @@ this file is for bootstrap media queries
         height: 75px;
     }  
 /***************home page ***************/
-        #home-heading h3
+    #home-heading h3
         {
             font-size: 53px;
         }
@@ -455,6 +455,7 @@ this file is for bootstrap media queries
     {
         padding-right: 9%;
         padding-left: 9%;
+        font-size: 13px;
     }
 
     
