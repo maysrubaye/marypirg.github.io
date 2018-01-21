@@ -1,5 +1,5 @@
 /*-------------------------------------------------------
-this file is for bootstrap media queries
+css media queries
 -------------------------------------------------------*/
 @media (max-width: 991px)
 {
@@ -417,7 +417,7 @@ this file is for bootstrap media queries
 /***************home page ***************/
     #home
     {
-        background-image: url("../img/cropped2.png");
+        background-image: url("../img/cropped-cover.JPG");
         background-size: contain;
         background-attachment: fixed;
         background-repeat: no-repeat;
