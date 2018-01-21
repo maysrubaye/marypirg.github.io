@@ -418,7 +418,7 @@ css media queries
     #home
     {
         background-image: url("../img/croppedgirlben.jpg");
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         height: 100%;
     }
