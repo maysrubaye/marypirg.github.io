@@ -304,13 +304,18 @@ home page welcome section
 #home
 {
     height: 100%;
+    width: 100%;
+    background-image: url("../img/blured-background.png");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #home-cover
 {
     height: 100%;
-    background-image: url("../img/blured-background.png");
-    background-size: cover;
 }
 
 #home-content-box
@@ -322,6 +327,7 @@ home page welcome section
 
 #home-content-box-inner
 {
+    height: 100%;
     display: table-cell;
     vertical-align: middle;
 }
@@ -335,7 +341,6 @@ home page welcome section
     font-size: 91px;
     text-shadow: 5px 3px 0px #000;
     margin: 20px 0 20px 0;
-    
 }
 
 .art h2
@@ -379,6 +384,7 @@ ABOUT US PAGE
     background-image: url("../img/serenafilter2.JPG");
     background-size: cover;
     background-position: top;
+    background-attachment: fixed;
 }
 
 #right-underline
@@ -447,6 +453,7 @@ cal of events page
     background-image: url("../img/marypirg-girl-holding-sign.jpeg");
     background-size: cover;
     background-position: bottom;
+    background-attachment: fixed;
 }
 
 
@@ -467,7 +474,8 @@ get involved page
     height: 100%;
     background-image: url("../img/guytalkingps.jpg");
     background-size: cover;
-    background-position: center;  
+    background-position: center; 
+    background-attachment: fixed;
 }
 
 .tex a
@@ -582,6 +590,7 @@ Campaigns page
     background-image: url("../img/votetabletwitterfilter.JPG");
     background-size: cover;
     background-position: top;
+    background-attachment: fixed;
 }
 
 .camp-headline
@@ -610,6 +619,7 @@ contact us page
     background-image: url("../img/pirggrouppic.JPG");
     background-size: cover;
     background-position: top;
+    background-attachment: fixed;
 }
 
 #cont-head h3
