@@ -318,10 +318,7 @@ home page welcome section
 #home-cover
 {
     height: 100%;
-<<<<<<< HEAD
     background-color: rgba(0,0,0,0.2);
-=======
->>>>>>> origin/master
 }
 
 #home-content-box
@@ -389,11 +386,7 @@ ABOUT US PAGE
     height: 100%;
     background-image: url("../img/serenafilter2.JPG");
     background-size: cover;
-<<<<<<< HEAD
     background-position: center;
-=======
-    background-position: top;
->>>>>>> origin/master
     background-attachment: fixed;
 }
 
@@ -599,11 +592,7 @@ Campaigns page
     height: 100%;
     background-image: url("../img/votetabletwitterfilter.JPG");
     background-size: cover;
-<<<<<<< HEAD
     background-position: bottom;
-=======
-    background-position: top;
->>>>>>> origin/master
     background-attachment: fixed;
 }
 
@@ -632,11 +621,7 @@ contact us page
     height: 100%;
     background-image: url("../img/pirggrouppic.JPG");
     background-size: cover;
-<<<<<<< HEAD
     background-position: bottom;
-=======
-    background-position: top;
->>>>>>> origin/master
     background-attachment: fixed;
 }
 

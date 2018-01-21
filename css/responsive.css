@@ -1,5 +1,5 @@
 /*-------------------------------------------------------
-css media queries
+this file is for bootstrap media queries
 -------------------------------------------------------*/
 @media (max-width: 991px)
 {
@@ -415,15 +415,15 @@ css media queries
     }
 
 /***************home page ***************/
-<<<<<<< HEAD
     #home
     {
         background-image: url("../img/cropped2.png");
         background-size: contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100%;
     }
     
-=======
->>>>>>> origin/master
     #home-heading h3
         {
             font-size: 53px;
@@ -484,7 +484,6 @@ css media queries
         padding-right: 9%;
         padding-left: 9%;
         font-size: 13px;
-<<<<<<< HEAD
     }
 
 /***************cal of events page ***************/     
@@ -493,8 +492,6 @@ css media queries
         background-image: url("../img/cropped-marypirg-girl-holding-sign%20copy.jpeg");
         background-size: contain;
         background-position: top;
-=======
->>>>>>> origin/master
     }
 
     
