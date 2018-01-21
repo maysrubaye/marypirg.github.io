@@ -1,7 +1,13 @@
 /*-------------------------------------------------------
 this file is for bootstrap media queries
 -------------------------------------------------------*/
-
+@media (max-width: 991px)
+{
+    .navbar
+    {
+        background: rgba(0,0,0,0.79);
+    }
+}
 
 @media (min-width: 728px) and (max-width: 991px)
 {
@@ -52,12 +58,11 @@ this file is for bootstrap media queries
         margin: 0 auto 0 auto;   
     }
 
-    .art2
+    .art2, .art3
     {
         padding-right: 11%;
         padding-left: 11%;
     }
-
     
 /*************** get involved page ***************/
     .tex a
@@ -319,6 +324,7 @@ this file is for bootstrap media queries
     {
         padding-right: 9%;
         padding-left: 9%;
+        font-size: 15px;
     }
 
     
@@ -391,7 +397,7 @@ this file is for bootstrap media queries
 
 
 
-@media (max-width: 320px)
+@media (max-width: 414px)
 {
     .generic-cover-heading h3
     {
@@ -402,8 +408,20 @@ this file is for bootstrap media queries
     {
         height: 75px;
     }  
+    
+    .generic-home
+    {
+        height: 51%;
+    }
+
 /***************home page ***************/
-        #home-heading h3
+    #home
+    {
+        background-image: url("../img/cropped2.png");
+        background-size: contain;
+    }
+    
+    #home-heading h3
         {
             font-size: 53px;
         }
@@ -438,6 +456,13 @@ this file is for bootstrap media queries
         }
 
 /***************about us page ***************/
+    
+    #about-cover
+    {
+        background-image: url("../img/cropped-serenafilter2.JPG");
+        background-size: contain;
+        background-position: top;
+    }
     #diagonal-pic
     {
         width: 0%;
@@ -455,10 +480,28 @@ this file is for bootstrap media queries
     {
         padding-right: 9%;
         padding-left: 9%;
+        font-size: 13px;
+    }
+
+/***************cal of events page ***************/     
+    #cal-events-cover
+    {
+        background-image: url("../img/cropped-marypirg-girl-holding-sign%20copy.jpeg");
+        background-size: contain;
+        background-position: top;
     }
 
     
-/***************get involved page ***************/
+    
+    
+ /***************get involved page ***************/   
+    #get-inv-cover
+    {
+        background-image: url("../img/cropped-guytalkingps%20copy.jpg");
+        background-size: contain;
+        background-position: top;
+    }
+
     .tex a
     {
         font-size: 51px;
@@ -493,7 +536,23 @@ this file is for bootstrap media queries
         font-size: 31px;    
     }
 
+    
+/***************campaings page ***************/    
+    #camp-cover
+    {
+        background-image: url("../img/cropped-votetabletwitterfilter%20copy.JPG");
+        background-size: contain;
+        background-position: top;
+    }
+
 /***************contact page ***************/    
+    #contact-cover
+    {
+        background-image: url("../img/cropped-pirggrouppic.JPG");
+        background-size: contain;
+        background-position: top;
+    }
+    
     #cont-head h3
     {
         font-size: 27px;

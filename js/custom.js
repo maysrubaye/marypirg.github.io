@@ -6,3 +6,22 @@ $(function()
 });
 
 
+
+$(function()
+  {
+    
+    $(window).scroll(function()
+                     {
+       if($(this).scrollTop() < 200)
+          {
+            $("nav").removeClass("scroll-top-nav");
+          } 
+          else
+          {
+            $("nav").addClass("scroll-top-nav");
+          }
+        
+    });
+});
+
+
