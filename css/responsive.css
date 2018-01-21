@@ -415,14 +415,14 @@ css media queries
     }
 
 /***************home page ***************/
-    #home-cover
+    #home
     {
         background-image: url("../img/cropped-cover.JPG");
-        background-size: contain;
+        background-size: cover;
         background-position: center;
-        height: 50%;
-        width: 50%
+        height: 80%;
     }
+    
     
     #home-heading h3
         {
