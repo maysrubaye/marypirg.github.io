@@ -420,8 +420,8 @@ css media queries
         background-image: url("../img/cropped-cover.JPG");
         background-size: contain;
         background-position: center;
-        height: 10%;
-        width: 10%
+        height: 50%;
+        width: 50%
     }
     
     #home-heading h3
