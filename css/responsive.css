@@ -411,7 +411,7 @@ css media queries
     
     .generic-home
     {
-        height: 51%;
+        height: 50%;
     }
 
 /***************home page ***************/
@@ -421,7 +421,6 @@ css media queries
         background-size: 100% 100%;
         background-position: center;
     }
-    
     
     #home-heading h3
         {
@@ -538,6 +537,7 @@ css media queries
         font-size: 31px;    
     }
 
+    
     
 /***************campaings page ***************/    
     #camp-cover
