@@ -37,7 +37,7 @@ generic buttons style
 .btn-general 
 {
     border-color: white;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 0;
     padding: 7px 19px;
     font-size: 21px;
@@ -54,8 +54,8 @@ generic buttons style
 .btn-white:hover, 
 .btn-white:focus 
 {
-    background-color: white;
-    color: black;
+    background-color: rgba(255,255,255, 0.4);
+    color: white;
 }
 
 /*-------------------------------------------------------
@@ -214,10 +214,10 @@ navigation bar
 .navbar-nav > li > a:focus
 {
     background: none;
-    color: #01bafd;
+    color: #f10187;
    /* color: #01bafd;*/
     /*color: #96b573;*/
-  /*  text-shadow: 2px 1px 0px black;*/
+    font-weight: 600;
 }
 
 .navbar-toggle
@@ -241,7 +241,7 @@ navigation bar
 {
   /*  background: #01bafd;*/
    /* background: #96b573;*/
-    background: #8c8c8c;
+    background: #f10187;
     color: white;
     border-radius: 25px;
 }
@@ -286,8 +286,7 @@ generic page heading graphics and titles
     width: 100%;
     height: 100%;
     display: table;
-    background-color: rgba(0,0,0,0.47);
-
+    background-color: rgba(100,50,200,0.3);
 }
 
 .generic-content-box-inner
@@ -301,23 +300,26 @@ generic page heading graphics and titles
 {
     font-family: "lato";
     color: #FFF;
-    text-align: left;
     font-size: 71px;
-    font-weight: 100;
-    margin: 20px 0 37px 3.7%;   
+    font-weight: 300;
+    margin: 20px 0 23px 2.9%;
+    background-color: #f10187;
+    text-align: left;
+    display:table;
 }
 
 
 /*------------------------------------------------------
 collapsing section
 -------------------------------------------------------*/
-#col-sec-btn
+
+/*#collapse-sec-btn
 {
     margin-top: 100px;
     background-color: aqua;
     width: 100%;
     height: 51px;
-}
+}*/
 
 .fa-arrow-down
 {
@@ -331,17 +333,12 @@ collapsing section
     animation:  3s infinite;
   }
   
-
-
-
-
 .circle {
     
-    border: 1px solid #eee;
+    border: 2px solid #eee;
     border-radius: 50%;
     color: #fff;
     text-align: center;
-  
     display: block;
     left: 50%;
     margin-left: -50px;
@@ -349,14 +346,18 @@ collapsing section
     height: 100px;
     width: 100px;
     line-height: 100px;
-    bottom: 20px;
-  
+    bottom: 20px; 
+}
+
+.circle:hover
+{
+    background-color: rgba(255,255,255, 0.4);
 }
 
 
 .arrow {
-    border-right: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
     border-radius: 2px;
     display: inline-block;
     height: 50px;
@@ -370,7 +371,6 @@ collapsing section
   -ms-transform: rotate(0deg);
   transform: rotate(45deg);
 }
-
 
 
 
@@ -399,7 +399,7 @@ home page welcome section
 #home-cover
 {
     height: 100%;
-    background-color: rgba(0,0,0,0.45);
+    background-color: rgba(45,0,50,0.4);
 }
 
 #home-content-box
@@ -424,8 +424,8 @@ home page welcome section
     color: #FFF;
     text-align: center;
     font-size: 91px;
-    /*text-shadow: 5px 3px 0px #000;*/
     margin: 20px 0 20px 0;
+    text-shadow: 0.5px 0.5px 0px white;
 }
 
 .art h2
@@ -492,7 +492,6 @@ ABOUT US PAGE
     border-top: 900px solid transparent;
     border-right: 200px solid white;
 }
-
 
 .art2
 {
@@ -666,6 +665,7 @@ get involved page
     text-decoration: none;
     font-family: "permanent marker";
     color: #01bafd;
+    text-shadow: 2px 3px 0px black;
 }
 
 .sec-pad
@@ -725,7 +725,7 @@ contact us page
 {
     padding: 19px;
     font-family: "lato";
-    color: #;
+    color: #000;
     font-size: 41px;
 }
 

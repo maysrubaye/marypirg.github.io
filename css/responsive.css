@@ -396,23 +396,249 @@ css media queries
 }
 
 
+/*************************************************************
+medium phone landscape
+**************************************************************/
+@media (max-width: 667px)
+{
+    .navbar-brand img
+    {
+        height: 67px;
+    }  
+    
+    .generic-home
+    {
+        height: 67%;
+    }
 
+/***************home page ***************/
+    #home
+    {
+        background: url("../img/landscape-cropped-cover.JPG");
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    
+        #home-heading h3
+        {
+            font-size: 43px;
+            text-shadow: 0.5px 0.5px 0px #fff;
+        }
+    
+        .btn-general
+        {
+            font-size: 13px;
+        }
+    
+        .content-title h3
+        {
+            font-size: 31px;
+        }
+
+        .art h2
+        {
+            font-size: 21px;
+        }
+    
+        .art
+        {
+            padding: 13px;
+        }
+    
+        .right-icon
+        {
+            font-size: 6.7em;
+        }
+
+    .left-icon
+        {
+            font-size: 5.7em;
+        }
+
+    
+    .circle
+    {
+        border: 1px solid #eee;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        display: block;
+        left: 50%;
+        margin-left: -20px;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        line-height: 57px;
+        bottom: 20px; 
+    }
+    
+    .arrow 
+    {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-top: -25px;
+    vertical-align: middle;
+  
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(45deg);
+}
+
+/***************about us page ***************/
+    
+    #about-cover
+    {
+        background-image: url("../img/serenafilter2-landscape-cropped.JPG");
+        background-size: contain;
+    }
+    
+    #diagonal-pic
+    {
+        width: 0%;
+        height: 0;
+        border-top: 0 solid transparent;
+        border-right: 0 solid transparent;
+    }
+    
+    #right-underline
+    {
+        margin: 0 auto 0 auto;   
+    }
+
+    .art2, .art3
+    {
+        padding-right: 9%;
+        padding-left: 9%;
+        font-size: 13px;
+    }
+
+/***************cal of events page ***************/     
+    #cal-events-cover
+    {
+        background-image: url("../img/marypirg-girl-sign-cropped-landscape.jpeg");
+        background-size: contain;
+        background-position: top;
+    }
+
+    
+    
+    
+ /***************get involved page ***************/   
+    #get-inv-cover
+    {
+        background-image: url("../img/landscape-cropped-guytalkingps copy.jpg");
+        background-size: contain;
+        background-position: top;
+    }
+
+    .tex a
+    {
+        font-size: 31px;
+        padding-top: 0;
+        text-shadow: 1px 2px 0px black;
+    }
+    
+    .icon i
+    {
+        font-size: 63px;
+        padding-top: 23px;
+        padding-bottom: 0;
+    }
+    
+    .sub-sec-headline-big
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    #apply-now-style2
+    {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3
+    {
+        font-size: 35px;
+    }
+    
+    .sub-sec-headline h2
+    {
+        font-size: 31px;    
+    }
+
+    
+    
+/***************campaings page ***************/    
+    #camp-cover
+    {
+        background-image: url("../img/landscape-votetabletwitterfilter.JPG");
+        background-size: contain;
+        background-position: top;
+    }
+
+/***************contact page ***************/    
+    #contact-cover
+    {
+        background-image: url("../img/landscape-pirggrouppic.JPG");
+        background-size: contain;
+        background-position: top;
+    }
+    
+    #cont-head h3
+    {
+        font-size: 27px;
+    }
+    
+    #cont-left-body p
+    {
+        font-size: 13px;
+        color: black;
+        padding: 37px;
+    }  
+    
+    .contact-icon
+    {
+    font-size: 35px;
+    }
+
+}
+
+    
+    
+
+    
+    
+/*************************************************************
+phone portrait
+*************************************************************/ 
 @media (max-width: 414px)
 {
     .generic-cover-heading h3
     {
+        font-family: lato, sans-serif;
         font-size: 41px;
+        font-style: normal;
+        font-weight: 300;
     }
     
     .navbar-brand img
     {
-        height: 75px;
+        height: 63px;
     }  
     
     .generic-home
     {
         height: 50%;
     }
+    
+    
 
 /***************home page ***************/
     #home
@@ -425,7 +651,9 @@ css media queries
     #home-heading h3
         {
             font-size: 53px;
+            text-shadow: 0.7px 0.7px 0px #fff;
         }
+    
         .btn-general
         {
             font-size: 13px;
@@ -455,6 +683,40 @@ css media queries
         {
             font-size: 5.7em;
         }
+
+    
+    .circle
+    {
+        border: 1px solid #eee;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        display: block;
+        left: 50%;
+        margin-left: -50px;
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        line-height: 80px;
+        bottom: 20px; 
+    }
+    
+    .arrow {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: -25px;
+    vertical-align: middle;
+  
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(45deg);
+}
 
 /***************about us page ***************/
     
@@ -515,7 +777,7 @@ css media queries
         padding-bottom: 0;
     }
     
-    .sub-sec-headline
+    .sub-sec-headline-big
     {
         font-size: 0px;
         padding: 0;
@@ -562,8 +824,14 @@ css media queries
     
     #cont-left-body p
     {
-        font-size: 13px;
+        font-size: 17px;
         color: black;
-        padding: 37px;
-    }   
+        padding: 31px;
+    }
+    
+    .contact-icon
+    {
+    font-size: 31px;
+    }
+
 }
