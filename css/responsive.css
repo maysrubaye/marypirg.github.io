@@ -496,6 +496,7 @@ medium phone landscape
     {
         background-image: url("../img/serenafilter2-landscape-cropped.JPG");
         background-size: contain;
+        background-position: top;
     }
     
     #diagonal-pic
