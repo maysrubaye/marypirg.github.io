@@ -330,16 +330,13 @@ collapsing section
 .bounce 
 {
     position: fixed;
-    animation:  3s infinite;
+    animation:  2s infinite;
   }
   
-.circle {
-    
-    border: 2px solid #eee;
-    border-radius: 50%;
+.click-space {
+
     color: #fff;
     text-align: center;
-    display: block;
     left: 50%;
     margin-left: -50px;
     position: absolute;
@@ -349,10 +346,6 @@ collapsing section
     bottom: 20px; 
 }
 
-.circle:hover
-{
-    background-color: rgba(255,255,255, 0.4);
-}
 
 
 .arrow {
@@ -360,9 +353,8 @@ collapsing section
     border-bottom: 3px solid #fff;
     border-radius: 2px;
     display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin-top: -25px;
+    height: 41px;
+    width: 41px;
     vertical-align: middle;
   
   -webkit-transform: rotate(90deg);
@@ -569,7 +561,7 @@ get involved page
     margin-left: 0;
     font-family: "permanent marker";
     color: #01bafd;
-    text-shadow: 1px 3.7px 0px #000;
+    text-shadow: 1px 2.3px 1px #000;
     font-size: 37px;
     text-decoration-line: none;
     text-align: center;
@@ -590,6 +582,7 @@ get involved page
 {
     font-size: 91px;
     text-shadow: 2px 2px 0px #01bafd;
+    padding-top: 2.5%;
 }
 
 .icon i:hover
@@ -616,6 +609,7 @@ get involved page
     text-shadow: 2px 2px 0px black;
     text-align: center;
 }
+
 
 .sub-sec-headline h3, h2
 {
@@ -644,9 +638,8 @@ get involved page
     color: #01bafd;
 }
 
-#apply-now-style1:hover, 
-#apply-now-style2:hover,
-#apply-now-style3:hover
+#apply-now-style1:hover,
+#apply-now-intern-p:hover
 {
     color: #f10187;
 }
@@ -659,6 +652,11 @@ get involved page
     color: #01bafd;
 }
 
+#apply-now-style2 a,
+#apply-now-style3 a
+{
+    color: #f10187;
+}
 #apply-now-style3
 {
     font-size: 61px;
@@ -677,6 +675,7 @@ get involved page
 {
     padding-bottom: 283px;
 }
+
 /*-------------------------------------------------------
 Campaigns page
 -------------------------------------------------------*/
@@ -684,6 +683,7 @@ Campaigns page
 {
     padding-top: 50px;
 }
+
 #camp-cover
 {
     height: 100%;
@@ -706,8 +706,99 @@ Campaigns page
     font-size: 17px;
     padding-right: 13%;
     padding-left: 13%;
-    padding-bottom: 83px;
+    padding-bottom: 11%;
 }
+
+.camp-sec h4
+{
+    font-size: 19px;
+    padding-left: 13%;
+    padding-right: 13%
+}
+
+.coord-name
+{
+    color: black;
+}
+.coord-email
+{
+    float: right;
+    padding-right: 13%;
+    color: #01bafd;
+}
+
+.hide-email
+{
+    display: none;
+}
+
+.show-hide
+{
+    height: 50px;
+    width: 200px;
+    text-align: right;
+    cursor: pointer;
+    float: right;
+}
+
+.show-hide:hover .hide-email
+{
+    display: block;
+}
+
+.show-hide:hover .show-mail
+{
+    display: none;
+}
+
+.read-on-hide
+{
+    display: none;
+}
+
+.read-on
+{
+    display: block;
+}
+
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+
 
 /*-------------------------------------------------------
 contact us page
