@@ -652,6 +652,7 @@ phone portrait
     #home-heading h3
         {
             font-size: 53px;
+            font-weight: 300;
             text-shadow: 0.7px 0.7px 0px #fff;
         }
     
