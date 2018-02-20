@@ -410,6 +410,8 @@ medium phone landscape
     {
         height: 67%;
     }
+    
+    
 
 /***************home page ***************/
     #home
@@ -419,6 +421,10 @@ medium phone landscape
         background-position: center;
     }
     
+    .accmp-pic
+    {
+        height: 635px;
+    }
         #home-heading h3
         {
             font-size: 43px;
@@ -455,23 +461,6 @@ medium phone landscape
             font-size: 5.7em;
         }
 
-    
-    .circle
-    {
-        border: 1px solid #eee;
-        border-radius: 50%;
-        color: #fff;
-        text-align: center;
-        display: block;
-        left: 50%;
-        margin-left: -20px;
-        position: absolute;
-        height: 40px;
-        width: 40px;
-        line-height: 57px;
-        bottom: 20px; 
-    }
-    
     .arrow 
     {
     border-right: 2px solid #fff;
@@ -481,7 +470,7 @@ medium phone landscape
     height: 15px;
     width: 15px;
     margin-top: -25px;
-    vertical-align: middle;
+    vertical-align: bottom;
   
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(0deg);
@@ -676,33 +665,10 @@ phone portrait
             padding: 13px;
         }
     
-        .right-icon
-        {
-            font-size: 5.7em;
-        }
-
-    .left-icon
-        {
-            font-size: 5.7em;
-        }
-
-    
-    .circle
+    .accmp-pic
     {
-        border: 1px solid #eee;
-        border-radius: 50%;
-        color: #fff;
-        text-align: center;
-        display: block;
-        left: 50%;
-        margin-left: -50px;
-        position: absolute;
-        height: 70px;
-        width: 70px;
-        line-height: 80px;
-        bottom: 20px; 
-    }
-    
+        height: 350px;
+    }    
     .arrow {
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;

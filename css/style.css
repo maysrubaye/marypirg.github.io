@@ -432,10 +432,10 @@ home page welcome section
     padding: 71px;
 }
 
-.right-icon
+/*.right-icon
 {
     float: right;
-    font-size: 17em;
+   font-size: 17em;
     padding-right: 7%;
     padding-left: 5%;
     color: #01bafd;
@@ -451,7 +451,12 @@ home page welcome section
     color: #01bafd;
     text-shadow: 5px 5px 0px black;
 }
+*/
 
+.accmp-pic
+{
+    height: 500px;
+}
 /*-------------------------------------------------------
 ABOUT US PAGE
 -------------------------------------------------------*/
@@ -820,6 +825,11 @@ contact us page
     font-size: 41px;
 }
 
+#cont-head
+{
+    padding-bottom: 43px;
+}
+
 #contact-list li
 {
     display: inline-block;
@@ -831,7 +841,7 @@ contact us page
     padding: 29px;
     color: #f10187;
     text-shadow: 2px 2px 0px black;
-    padding-bottom: 187px;
+    padding-bottom: 107px;
 }
 
 #cont-left-body p
@@ -839,7 +849,6 @@ contact us page
     font-size: 25.7px;
     color: black;
     padding: 37px;
-    padding-bottom: 187px;
 }
 
 #email-highlight{
@@ -850,4 +859,40 @@ contact us page
 .contact-icon:hover
 {
     color: #01bafd;
+}
+
+#board-list li
+{
+    list-style: none;
+    font-size: 21px;
+}
+
+#board-list span
+{
+    font-size: 17px;
+}
+
+#board-list
+{
+        text-align: center;
+}
+
+#brd-head
+{
+font-size: 31px;    
+}
+
+.bd-mbr
+{
+    font-size: 19px;
+}
+
+#board-mbr
+{   text-align: center;
+    padding-bottom: 200px;
+}
+
+#board-mbr h3
+{
+    text-align-last: center;
 }
