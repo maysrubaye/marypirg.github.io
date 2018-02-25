@@ -214,7 +214,7 @@ navigation bar
 .navbar-nav > li > a:focus
 {
     background: none;
-    color: #f10187;
+    color: #000;
    /* color: #01bafd;*/
     /*color: #96b573;*/
     font-weight: 600;
@@ -241,8 +241,8 @@ navigation bar
 {
   /*  background: #01bafd;*/
    /* background: #96b573;*/
-    background: #f10187;
-    color: white;
+    background: #fff;
+    color: #000;
     border-radius: 25px;
 }
 
@@ -455,7 +455,7 @@ home page welcome section
 
 .accmp-pic
 {
-    height: 500px;
+    height: 451px;
 }
 /*-------------------------------------------------------
 ABOUT US PAGE
