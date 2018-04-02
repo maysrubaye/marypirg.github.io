@@ -26,7 +26,6 @@ h3
 p
 {
     color: gray;
-    font: 17px;
     font-weight: 300;
 }
 
@@ -432,6 +431,10 @@ home page welcome section
     padding: 71px;
 }
 
+.art p 
+{
+    font-size: 17px;
+}
 /*.right-icon
 {
     float: right;
@@ -494,7 +497,7 @@ ABOUT US PAGE
 {
     padding-bottom: 23px;
     padding-top: 23px;
-    font-size: 17px;
+    font-size: 19px;
     padding-right: 3%;
     padding-left: 3%;
 
@@ -506,7 +509,7 @@ ABOUT US PAGE
     padding-right: 13%;
     padding-bottom: 23px;
     padding-top: 0;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 
@@ -580,6 +583,7 @@ get involved page
 
 .icon
 {
+    padding-top: 37px;
     text-align: center;
 }
 
@@ -632,10 +636,10 @@ get involved page
 .sub-sec-body
 {
     padding-top: 23px;
-    font-size: 17px;
+    font-size: 100px;
 }
 
-#apply-now-style1
+.apply-now-style1
 {
     font-size: 23px;
     text-decoration: none;
@@ -643,9 +647,9 @@ get involved page
     color: #01bafd;
 }
 
-#apply-now-style1:hover,
-#apply-now-intern-p:hover
+.apply-now-style1:hover
 {
+    text-decoration: none;    
     color: #f10187;
 }
 
@@ -874,7 +878,7 @@ contact us page
 
 #board-list
 {
-        text-align: center;
+    text-align: center;
 }
 
 #brd-head
@@ -895,4 +899,68 @@ font-size: 31px;
 #board-mbr h3
 {
     text-align-last: center;
+}
+
+
+
+
+/*-------------------------------------------------------
+FAQ page
+-------------------------------------------------------*/
+#faq-cover
+{
+    height: 100%;
+    background-image: url("../img/faq.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.faq-row
+{
+    padding-right: 11%;
+    padding-left: 11%;
+}
+
+
+#faq-list 
+{
+    padding-top: 43px;
+    padding-bottom: 53px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#faq-list li a
+{
+    font-size: 19px;
+    color: black;
+    font-family: lato;
+}
+
+
+.one_faq 
+{
+    padding-top: 63px;
+    padding-bottom: 19px;
+}
+
+.last-faq 
+{
+    padding-bottom: 119px;
+}
+
+.question 
+{
+    font-size: 23px;
+    font-style: italic;
+}
+
+.answer 
+{
+    font-size: 17px;
+    padding-top: 13px;
+    color: gray;
+    font-family: lato;
+    font-weight: 300;
 }
