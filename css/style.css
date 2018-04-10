@@ -53,7 +53,7 @@ generic buttons style
 .btn-white:hover, 
 .btn-white:focus 
 {
-    background-color: rgba(255,255,255, 0.4);
+    background-color: rgba(255,255,255, 0.3);
     color: white;
 }
 
@@ -188,9 +188,9 @@ navigation bar
 
 .custome-nav-wrapper
 {
-    padding-right: 5%;
+    padding-right: 3%;
     padding-left: 5%;
-    padding-top: 0;
+    padding-top: 0.5%;
     padding-bottom: 0;
 }
 
@@ -213,7 +213,7 @@ navigation bar
 .navbar-nav > li > a:focus
 {
     background: none;
-    color: #000;
+    color: #fff;
    /* color: #01bafd;*/
     /*color: #96b573;*/
     font-weight: 600;
@@ -376,10 +376,10 @@ home page welcome section
 {
     height: 100%;
     width: 100%;
-    background-image: url("../img/blured-background.png");
+    background-image: url("../img/group-front-resize.jpg");
     background-size: cover;
     position: relative;
-    background-position: center center;
+    background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100vw;
@@ -636,7 +636,7 @@ get involved page
 .sub-sec-body
 {
     padding-top: 23px;
-    font-size: 100px;
+    font-size: 19px;
 }
 
 .apply-now-style1
@@ -963,4 +963,64 @@ FAQ page
     color: gray;
     font-family: lato;
     font-weight: 300;
+}
+
+
+/*-------------------------------------------------------
+vote yes page
+-------------------------------------------------------*/
+#vote-cover
+{
+    height: 100%;
+    background-image: url("../img/voteyes.png");
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.acmp1 {
+    
+    background-color: #fce95f;
+    height: 200px;
+    display: block;
+    margin: 30px;
+}
+
+.acmp1num
+{
+    background-color: #6f2524;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.acmp1:hover
+{
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+}
+
+.acmp1num h3 
+{
+    font-size: 275px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #1c2c6a;
+}
+
+.rowWrap
+{
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+.acmp1 p 
+{
+    color: black;
+    font-size: 23px;
+    margin-top: 6%;
 }

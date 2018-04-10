@@ -9,6 +9,7 @@ css media queries
     }
 }
 
+
 @media (min-width: 728px) and (max-width: 991px)
 {
    
@@ -399,11 +400,11 @@ css media queries
 /*************************************************************
 medium phone landscape
 **************************************************************/
-@media (max-width: 667px)
+@media (max-width: 812px)
 {
     .navbar-brand img
     {
-        height: 67px;
+        height: 51px;
     }  
     
     .generic-home
@@ -416,10 +417,23 @@ medium phone landscape
 /***************home page ***************/
     #home
     {
-        background: url("../img/landscape-cropped-cover.JPG");
+        background: url("../img/667group-front-resize.jpg");
         background-size: 100% 100%;
         background-position: center;
     }
+    
+    #home-heading h3
+{
+    font-family: "lato";
+    font-weight: 100;
+    color: #FFF;
+    text-align: center;
+    font-size: 71px;
+    margin: 20px 0 20px 0;
+    text-shadow: 0.5px 0.5px 0px white;
+}
+
+    
     
     .accmp-pic
     {
@@ -603,7 +617,7 @@ medium phone landscape
     
     
 /*************************************************************
-phone portrait
+***********************phone portrait*************************
 *************************************************************/ 
 @media (max-width: 414px)
 {
@@ -630,7 +644,7 @@ phone portrait
 /***************home page ***************/
     #home
     {
-        background: url("../img/cropped-cover.JPG");
+        background: url("../img/414group-front-resize.jpg");
         background-size: 100% 100%;
         background-position: center;
     }
@@ -808,7 +822,7 @@ phone portrait
     font-size: 31px;
     }
     
-    /***************FAQ page ***************/  
+/***************FAQ page ***************/  
     #faq-cover
 {
     height: 100%;
@@ -833,5 +847,48 @@ phone portrait
 {
     font-size: 15px;
 }
+    
 
+/*************** vote yes page ***************/  
+
+    #vote-cover
+{
+    background-image: url("../img/collage.png");
+}
+
+.acmp1num
+{
+    background-color: #6f2524;
+    height: 230px;
+    width: 230px;
+    display: block;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+
+.acmp1num h3 
+{
+    font-size: 275px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #1c2c6a;
+}
+
+.rowWrap
+{
+margin-left: 0%;
+margin-right: 0%;
+}
+
+
+.acmp1 p 
+{
+    color: black;
+    font-size: 19px;
+    margin-top: 15%;
+    padding-top: 5%;
+}
+    
 }
