@@ -971,7 +971,7 @@ vote yes page
 #vote-cover
 {
     height: 100%;
-    background-image: url("../img/voteyes.png");
+    background-image: url("../img/bigger-voteyes.jpg");
     background-size: contain;
     background-position: top;
     background-attachment: fixed;
