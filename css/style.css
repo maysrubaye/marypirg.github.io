@@ -288,6 +288,13 @@ generic page heading graphics and titles
     background-color: rgba(100,50,200,0.3);
 }
 
+.generic-content-box-other
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
 .generic-content-box-inner
 {
     display: table-cell;
@@ -966,16 +973,28 @@ FAQ page
 }
 
 /*-------------------------------------------------------
-vote yes page
+accomplishments (formely vote yes) page
 -------------------------------------------------------*/
 #vote-cover
 {
     height: 100%;
-    background-image: url("../img/bigger-voteyes.jpg");
+    background-image: url("../img/diksha.JPG");
     background-size: contain;
     background-position: top;
     background-attachment: fixed;
 }
+
+/*.other-home
+{
+    height: 100%;
+    background-image: url("../img/diksha.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+*/
 
 .acmp1 {
     
