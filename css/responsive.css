@@ -1,395 +1,330 @@
 /*-------------------------------------------------------
 css media queries
 -------------------------------------------------------*/
-@media (max-width: 991px)
-{
-    .navbar
-    {
-        background: rgba(0,0,0,0.79);
+
+@media (max-width: 991px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.79);
     }
 }
 
 
-@media (min-width: 728px) and (max-width: 991px)
-{
-   
-    .generic-cover-heading h3
-    {
+@media (min-width: 728px) and (max-width: 991px) {
+
+    .generic-cover-heading h3 {
         font-size: 61px;
     }
-    
-    .navbar-brand img
-    {
+
+    .navbar-brand img {
         height: 115px;
     }
 
-/*************** home page ***************/
-        #home-heading h3
-        {
-            font-size: 79px;
-        }
+    /*************** home page ***************/
+    #home-heading h3 {
+        font-size: 79px;
+    }
 
-        .art h2
-        {
-            font-size: 37px;
-        }
+    .art h2 {
+        font-size: 37px;
+    }
 
-    .right-icon
-        {
-            font-size: 13em;
-        }
+    .right-icon {
+        font-size: 13em;
+    }
 
-    .left-icon
-        {
-            font-size: 13em;
-        }
-    
-    
-/*************** about us page ***************/
-    #diagonal-pic
-    {
+    .left-icon {
+        font-size: 13em;
+    }
+
+
+    /*************** about us page ***************/
+    #diagonal-pic {
         width: 0%;
         height: 0;
         border-top: 0 solid transparent;
         border-right: 0 solid transparent;
     }
-    
-    #right-underline
-    {
-        margin: 0 auto 0 auto;   
+
+    #right-underline {
+        margin: 0 auto 0 auto;
     }
 
-    .art2, .art3
-    {
+    .art2,
+    .art3 {
         padding-right: 11%;
         padding-left: 11%;
     }
-    
-/*************** get involved page ***************/
-    .tex a
-    {
+
+    /*************** get involved page ***************/
+    .tex a {
         font-size: 29px;
     }
 
-    .icon
-    {
+    .icon {
         font-size: 71px;
         float: left;
     }
-    
-    .sub-sec-headline
-    {
-        font-size: 0px;
-        padding: 0;
-    }
-    
-    #apply-now-style2
-    {
+
+    .sub-sec-headline {
         font-size: 0px;
         padding: 0;
     }
 
-    #apply-now-style3
-    {
+    #apply-now-style2 {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3 {
         font-size: 51px;
     }
 }
+
 /*end of 768px-991px*/
 
+@media (min-width: 684px) and (max-width: 727px) {
 
-@media (min-width: 684px) and (max-width: 727px)
-{
-       
-    .generic-cover-heading h3
-    {
+    .generic-cover-heading h3 {
         font-size: 51px;
     }
 
-    .navbar-brand img
-    {
+    .navbar-brand img {
         height: 105px;
     }
-    
-/***************home page***************/
-        #home-heading h3
-        {
-            font-size: 73px;
-        }
 
-        .art h2
-        {
-            font-size: 31px;
-        }
+    /***************home page***************/
+    #home-heading h3 {
+        font-size: 73px;
+    }
 
-    .right-icon
-        {
-            font-size: 13em;
-        }
+    .art h2 {
+        font-size: 31px;
+    }
 
-    .left-icon
-        {
-            font-size: 13em;
-        }
+    .right-icon {
+        font-size: 13em;
+    }
 
-    
-/***************about us page ***************/
-    #diagonal-pic
-    {
+    .left-icon {
+        font-size: 13em;
+    }
+
+
+    /***************about us page ***************/
+    #diagonal-pic {
         width: 0%;
         height: 0;
         border-top: 0 solid transparent;
         border-right: 0 solid transparent;
     }
-    
-    #right-underline
-    {
-        margin: 0 auto 0 auto;   
+
+    #right-underline {
+        margin: 0 auto 0 auto;
     }
 
-    .art2
-    {
+    .art2 {
         padding-right: 11%;
         padding-left: 11%;
     }
 
-    
-/***************get involved page ***************/
-    .tex a
-    {
+
+    /***************get involved page ***************/
+    .tex a {
         font-size: 27px;
     }
 
-    .icon
-    {
+    .icon {
         font-size: 71px;
         float: left;
     }
-    
-    .sub-sec-headline
-    {
-        font-size: 0px;
-        padding: 0;
-    }
-    
-    #apply-now-style2
-    {
+
+    .sub-sec-headline {
         font-size: 0px;
         padding: 0;
     }
 
-    #apply-now-style3
-    {
+    #apply-now-style2 {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3 {
         font-size: 51px;
     }
-    
+
 }
 
-@media (min-width: 570px) and (max-width: 683px)
-{
-           
-    .generic-cover-heading h3
-    {
+@media (min-width: 570px) and (max-width: 683px) {
+
+    .generic-cover-heading h3 {
         font-size: 41px;
     }
-    
-    .navbar-brand img
-    {
+
+    .navbar-brand img {
         height: 100px;
     }
-/***************home page ***************/
-        #home-heading h3
-        {
-            font-size: 63px;
-        }
+    /***************home page ***************/
+    #home-heading h3 {
+        font-size: 63px;
+    }
 
-        .art h2
-        {
-            font-size: 31px;
-        }
+    .art h2 {
+        font-size: 31px;
+    }
 
-    .right-icon
-        {
-            font-size: 13em;
-        }
+    .right-icon {
+        font-size: 13em;
+    }
 
-    .left-icon
-        {
-            font-size: 13em;
-        }
+    .left-icon {
+        font-size: 13em;
+    }
 
-/***************about us page ***************/
-    #diagonal-pic
-    {
+    /***************about us page ***************/
+    #diagonal-pic {
         width: 0%;
         height: 0;
         border-top: 0 solid transparent;
         border-right: 0 solid transparent;
     }
-    
-    #right-underline
-    {
-        margin: 0 auto 0 auto;   
+
+    #right-underline {
+        margin: 0 auto 0 auto;
     }
 
-    .art2
-    {
+    .art2 {
         padding-right: 11%;
         padding-left: 11%;
     }
 
-    
-/***************get involved page ***************/
-    .tex a
-    {
+
+    /***************get involved page ***************/
+    .tex a {
         font-size: 51px;
     }
-    
-        .icon i
-    {
+
+    .icon i {
         padding-top: 50px;
         padding-bottom: 0;
     }
 
-    .sub-sec-headline
-    {
-        font-size: 0px;
-        padding: 0;
-    }
-    
-    #apply-now-style2
-    {
+    .sub-sec-headline {
         font-size: 0px;
         padding: 0;
     }
 
-    #apply-now-style3
-    {
+    #apply-now-style2 {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3 {
         font-size: 45px;
     }
-    
+
 }
 
 
 
-@media (max-width: 569px)
-{
-    .generic-cover-heading h3
-    {
+@media (max-width: 569px) {
+    .generic-cover-heading h3 {
         font-size: 41px;
     }
-    
-    .navbar-brand img
-    {
+
+    .navbar-brand img {
         height: 80px;
-    }  
-/***************home page ***************/
-        #home-heading h3
-        {
-            font-size: 53px;
-        }
+    }
+    /***************home page ***************/
+    #home-heading h3 {
+        font-size: 53px;
+    }
 
-        .art h2
-        {
-            font-size: 31px;
-        }
-    
-        .art
-        {
-            padding: 17px;
-        }
-        .right-icon
-        {
-            font-size: 7em;
-        }
+    .art h2 {
+        font-size: 31px;
+    }
 
-        .left-icon            
-        {
-            font-size: 7em;
-        }
+    .art {
+        padding: 17px;
+    }
+    .right-icon {
+        font-size: 7em;
+    }
 
-/***************about us page ***************/
-    #diagonal-pic
-    {
+    .left-icon {
+        font-size: 7em;
+    }
+
+    /***************about us page ***************/
+    #diagonal-pic {
         width: 0%;
         height: 0;
         border-top: 0 solid transparent;
         border-right: 0 solid transparent;
     }
-    
-    #right-underline
-    {
-        margin: 0 auto 0 auto;   
+
+    #right-underline {
+        margin: 0 auto 0 auto;
     }
 
-    .art2, .art3
-    {
+    .art2,
+    .art3 {
         padding-right: 9%;
         padding-left: 9%;
         font-size: 15px;
     }
 
-    
-/***************get involved page e***************/
-    .tex a
-    {
+
+    /***************get involved page e***************/
+    .tex a {
         font-size: 51px;
         padding-top: 0;
     }
-    
-    .icon i
-    {
+
+    .icon i {
         padding-top: 50px;
         padding-bottom: 0;
     }
-    
-    .sub-sec-headline
-    {
-        font-size: 0px;
-        padding: 0;
-    }
-    
-    #apply-now-style2
-    {
+
+    .sub-sec-headline {
         font-size: 0px;
         padding: 0;
     }
 
-    #apply-now-style3
-    {
+    #apply-now-style2 {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3 {
         font-size: 35px;
     }
-    
-    .sub-sec-body
-    {
+
+    .sub-sec-body {
         font-size: 13px;
     }
 
-/***************campaign page ***************/
-    .camp-headline
-    {
+    /***************campaign page ***************/
+    .camp-headline {
         font-size: 41px;
         padding-left: 1%;
 
     }
 
-    .camp-p
-    {
+    .camp-p {
         font-size: 13px;
         padding-right: 3%;
         padding-left: 3%;
         padding-bottom: 53px;
     }
 
-    
-/***************contact page ***************/
-    #cont-head h3
-    {
+
+    /***************contact page ***************/
+    #cont-head h3 {
         font-size: 35px;
     }
 
-    
-    #cont-left-body p
-    {
+
+    #cont-left-body p {
         font-size: 19px;
         color: black;
         padding: 37px;
@@ -400,494 +335,471 @@ css media queries
 /*************************************************************
 medium phone landscape
 **************************************************************/
-@media (max-width: 812px)
-{
-    .navbar-brand img
-    {
+
+@media (max-width: 812px) {
+    .navbar-brand img {
         height: 51px;
-    }  
-    
-    .generic-home
-    {
+    }
+
+    .generic-home {
         height: 67%;
     }
-    
-    
 
-/***************home page ***************/
-    #home
-    {
+
+
+    /***************home page ***************/
+    #home {
         background: url("../img/667group-front-resize.jpg");
         background-size: 100% 100%;
         background-position: center;
     }
-    
-    #home-heading h3
-{
-    font-family: "lato";
-    font-weight: 100;
-    color: #FFF;
-    text-align: center;
-    font-size: 71px;
-    margin: 20px 0 20px 0;
-    text-shadow: 0.5px 0.5px 0px white;
-}
 
-    
-    
-    .accmp-pic
-    {
+    #home-heading h3 {
+        font-weight: 100;
+        color: #FFF;
+        text-align: center;
+        font-size: 71px;
+        margin: 20px 0 20px 0;
+        text-shadow: 0.5px 0.5px 0px white;
+    }
+
+
+
+    .accmp-pic {
         height: 635px;
     }
-        #home-heading h3
-        {
-            font-size: 43px;
-            text-shadow: 0.5px 0.5px 0px #fff;
-        }
-    
-        .btn-general
-        {
-            font-size: 13px;
-        }
-    
-        .content-title h3
-        {
-            font-size: 31px;
-        }
+    #home-heading h3 {
+        font-size: 43px;
+        text-shadow: 0.5px 0.5px 0px #fff;
+    }
 
-        .art h2
-        {
-            font-size: 21px;
-        }
-    
-        .art
-        {
-            padding: 13px;
-        }
-    
-        .right-icon
-        {
-            font-size: 6.7em;
-        }
+    .btn-general {
+        font-size: 13px;
+    }
 
-    .left-icon
-        {
-            font-size: 5.7em;
-        }
+    .content-title h3 {
+        font-size: 31px;
+    }
 
-    .arrow 
-    {
-    border-right: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    border-radius: 2px;
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    margin-top: -25px;
-    vertical-align: bottom;
-  
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(45deg);
-}
+    .art h2 {
+        font-size: 21px;
+    }
 
-/***************about us page ***************/
-    
-    #about-cover
-    {
+    .art {
+        padding: 13px;
+    }
+
+    .right-icon {
+        font-size: 6.7em;
+    }
+
+    .left-icon {
+        font-size: 5.7em;
+    }
+
+    .arrow {
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-radius: 2px;
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin-top: -25px;
+        vertical-align: bottom;
+
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(45deg);
+    }
+
+    /***************about us page ***************/
+    #about-cover {
         background-image: url("../img/serenafilter2-landscape-cropped.JPG");
         background-size: contain;
         background-position: top;
     }
-    
-    #diagonal-pic
-    {
+
+    #diagonal-pic {
         width: 0%;
         height: 0;
         border-top: 0 solid transparent;
         border-right: 0 solid transparent;
     }
-    
-    #right-underline
-    {
-        margin: 0 auto 0 auto;   
+
+    #right-underline {
+        margin: 0 auto 0 auto;
     }
 
-    .art2, .art3
-    {
+    .art2,
+    .art3 {
         padding-right: 9%;
         padding-left: 9%;
         font-size: 13px;
     }
 
-/***************cal of events page ***************/     
-    #cal-events-cover
-    {
+    /***************cal of events page ***************/
+    #cal-events-cover {
         background-image: url("../img/marypirg-girl-sign-cropped-landscape.jpeg");
         background-size: contain;
         background-position: top;
     }
 
-    
-    
-    
- /***************get involved page ***************/   
-    #get-inv-cover
-    {
+
+
+
+    /***************get involved page ***************/
+    #get-inv-cover {
         background-image: url("../img/landscape-cropped-guytalkingps copy.jpg");
         background-size: contain;
         background-position: top;
     }
 
-    .tex a
-    {
+    .tex a {
         font-size: 31px;
         padding-top: 0;
         text-shadow: 1px 2px 0px black;
     }
-    
-    .icon i
-    {
+
+    .icon i {
         font-size: 63px;
         padding-top: 23px;
         padding-bottom: 0;
     }
-    
-    .sub-sec-headline-big
-    {
-        font-size: 0px;
-        padding: 0;
-    }
-    
-    #apply-now-style2
-    {
+
+    .sub-sec-headline-big {
         font-size: 0px;
         padding: 0;
     }
 
-    #apply-now-style3
-    {
+    #apply-now-style2 {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3 {
         font-size: 35px;
     }
-    
-    .sub-sec-headline h2
-    {
-        font-size: 31px;    
+
+    .sub-sec-headline h2 {
+        font-size: 31px;
     }
 
-    
-    
-/***************campaings page ***************/    
-    #camp-cover
-    {
+
+
+    /***************campaings page ***************/
+    #camp-cover {
         background-image: url("../img/landscape-votetabletwitterfilter.JPG");
         background-size: contain;
         background-position: top;
     }
 
-/***************contact page ***************/    
-    #contact-cover
-    {
+    /***************contact page ***************/
+    #contact-cover {
         background-image: url("../img/landscape-pirggrouppic.JPG");
         background-size: contain;
         background-position: top;
     }
-    
-    #cont-head h3
-    {
+
+    #cont-head h3 {
         font-size: 27px;
     }
-    
-    #cont-left-body p
-    {
+
+    #cont-left-body p {
         font-size: 13px;
         color: black;
         padding: 37px;
-    }  
-    
-    .contact-icon
-    {
-    font-size: 35px;
+    }
+
+    .contact-icon {
+        font-size: 35px;
     }
 
 }
 
-    
-    
+
+
 /*************************************************************
 ***********************phone portrait*************************
-*************************************************************/ 
-@media (max-width: 414px)
-{
-    .generic-cover-heading h3
-    {
+*************************************************************/
+
+@media (max-width: 414px) {
+    .generic-cover-heading h3 {
         font-family: lato, sans-serif;
-        font-size: 41px;
+        font-size: 35px;
         font-style: normal;
         font-weight: 300;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-left: 10px;
     }
-    
-    .navbar-brand img
-    {
+
+    .navbar-brand img {
         height: 63px;
-    }  
-    
-    .generic-home
-    {
+    }
+
+    .generic-home {
         height: 50%;
     }
-    
-    
 
-/***************home page ***************/
-    #home
-    {
+    /***************home page ***************/
+    #home {
         background: url("../img/414group-front-resize.jpg");
         background-size: 100% 100%;
         background-position: center;
     }
-    
-    #home-heading h3
-        {
-            font-size: 53px;
-            font-weight: 300;
-            text-shadow: 0.7px 0.7px 0px #fff;
-        }
-    
-        .btn-general
-        {
-            font-size: 17px;
-        }
-    
-        .content-title h3
-        {
-            font-size: 31px;
-        }
 
-        .art h2
-        {
-            font-size: 21px;
-        }
-    
-        .art
-        {
-            padding: 13px;
-        }
-    
-    .accmp-pic
-    {
+    #home-heading h3 {
+        font-size: 53px;
+        font-weight: 100;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .btn-general {
+        font-size: 17px;
+    }
+
+    .content-title h3 {
+        font-size: 31px;
+    }
+
+    .art h2 {
+        font-size: 21px;
+    }
+
+    .art {
+        padding: 13px;
+    }
+
+    .accmp-pic {
         height: 275px;
-    }    
+    }
     .arrow {
-    border-right: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    border-radius: 0px;
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    margin-top: -25px;
-    vertical-align: middle;
-  
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(45deg);
-}
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-radius: 0px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        margin-top: -25px;
+        vertical-align: middle;
 
-/***************about us page ***************/
-    
-    #about-cover
-    {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(45deg);
+    }
+
+    /***************about us page ***************/
+    #about-home {
         background-image: url("../img/cropped-serenafilter2.JPG");
         background-size: contain;
         background-position: top;
     }
-    #diagonal-pic
-    {
+    #about-cover {
+        height: 100%;
+        background-image: linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
+    }
+
+    #diagonal-pic {
         width: 0%;
         height: 0;
         border-top: 0 solid transparent;
         border-right: 0 solid transparent;
     }
-    
-    #right-underline
-    {
-        margin: 0 auto 0 auto;   
+
+    #right-underline {
+        margin: 0 auto 0 auto;
     }
 
-    .art2, .art3
-    {
+    .art2,
+    .art3 {
         padding-right: 9%;
         padding-left: 9%;
         font-size: 15px;
     }
 
-/***************cal of events page ***************/     
-    #cal-events-cover
-    {
+    /***************cal of events page ***************/
+    #cal-home {
         background-image: url("../img/cropped-marypirg-girl-holding-sign%20copy.jpeg");
         background-size: contain;
         background-position: top;
     }
 
-    
-    
-    
- /***************get involved page ***************/   
-    #get-inv-cover
-    {
+    #cal-events-cover {
+        height: 100%;
+        background-image: linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
+
+    }
+
+
+
+
+    /***************get involved page ***************/
+    #inv-home {
         background-image: url("../img/cropped-guytalkingps%20copy.jpg");
         background-size: contain;
         background-position: top;
     }
 
-    .tex a
-    {
+    #get-inv-cover {
+        height: 100%;
+        background: linear-gradient(-45deg, rgba(155, 0, 104, 0.6), rgba(51, 251, 253, 0.6))
+    }
+
+    .tex a {
         font-size: 51px;
         padding-top: 0;
     }
-    
-    .icon i
-    {
+
+    .icon {
+        height: 200px;
+    }
+
+    .tex1 a,
+    .tex2 a,
+    .tex3 a {
+        font-size: 30px;
+    }
+
+    .icon i {
         padding-top: 50px;
         padding-bottom: 0;
     }
-    
-    .sub-sec-headline-big
-    {
-        font-size: 0px;
-        padding: 0;
-    }
-    
-    #apply-now-style2
-    {
+
+    .sub-sec-headline-big {
         font-size: 0px;
         padding: 0;
     }
 
-    #apply-now-style3
-    {
+    #apply-now-style2 {
+        font-size: 0px;
+        padding: 0;
+    }
+
+    #apply-now-style3 {
         font-size: 35px;
     }
-    
-    .sub-sec-headline h2
-    {
-        font-size: 31px;    
+
+    .sub-sec-headline h2 {
+        font-size: 31px;
     }
 
-    .icon
-{
-    padding-top: 13px;
-}
+    .icon {
+        padding-top: 13px;
+    }
 
-    .sub-sec-body
-{
-    padding-top: 41px;
-    font-size: 15px;
-}
+    .sub-sec-body {
+        padding-top: 41px;
+        font-size: 15px;
+    }
 
-/***************campaings page ***************/    
-    #camp-cover
-    {
+    /***************campaings page ***************/
+    #camp-home {
         background-image: url("../img/cropped-votetabletwitterfilter%20copy.JPG");
         background-size: contain;
         background-position: top;
     }
-    
-/***************contact page ***************/    
-    #contact-cover
-    {
+
+    #camp-cover {
+        height: 100%;
+        background: linear-gradient(315deg, rgba(200, 62, 84, 0.6), rgba(7, 250, 133, 0.6))
+    }
+    /***************contact page ***************/
+    #contact-home {
         background-image: url("../img/cropped-pirggrouppic.JPG");
         background-size: contain;
         background-position: top;
     }
-    
-    #cont-head h3
-    {
+
+    #contact-cover {
+        height: 100%;
+        background: linear-gradient(45deg, rgba(170, 36, 36, 0.6), rgba(74, 186, 257, 0.6))
+    }
+
+    #cont-head h3 {
         font-size: 27px;
     }
-    
-    #cont-left-body p
-    {
+
+    #cont-left-body p {
         font-size: 17px;
         color: black;
         padding: 31px;
     }
-    
-    .contact-icon
-    {
-    font-size: 31px;
-    }
-    
-/***************FAQ page ***************/  
-    #faq-cover
-{
-    height: 100%;
-    background-image: url("../img/faq%20copy.jpg");
-    background-size: contain;
-    background-position: top;
-    background-attachment: fixed;
-}
 
-    #faq-list li a
-    {
+    .contact-icon {
+        font-size: 31px;
+    }
+
+    /***************FAQ page ***************/
+    #faq-home {
+        background-image: url("../img/faq%20copy.jpg");
+        background-size: contain;
+        background-position: top;
+        background-attachment: fixed;
+    }
+
+    #faq-cover {
+        height: 100%;
+        background: linear-gradient(45deg, rgba(100, 0, 119, 0.6), rgba(70, 150, 0, 0.6));
+    }
+
+
+    #faq-list li a {
         font-size: 15px;
     }
-    
-    
-    .question 
-{
-    font-size: 19px;
-}
-
-.answer 
-{
-    font-size: 15px;
-}
-    
-
-/*************** vote yes page ***************/  
-
-    #vote-cover
-{
-    background-image: url("../img/collage.png");
-}
-
-.acmp1num
-{
-    background-color: #6f2524;
-    height: 230px;
-    width: 230px;
-    display: block;
-    margin: 30px;
-    border-radius: 50%;
-}
 
 
-.acmp1num h3 
-{
-    font-size: 275px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #1c2c6a;
-}
+    .question {
+        font-size: 19px;
+    }
 
-.rowWrap
-{
-margin-left: 0%;
-margin-right: 0%;
-}
+    .answer {
+        font-size: 15px;
+    }
 
 
-.acmp1 p 
-{
-    color: black;
-    font-size: 19px;
-    margin-top: 15%;
-    padding-top: 5%;
-}
+    /*************** vote yes page ***************/
+    #accmp-home {
+        background-image: url("../img/IMG_3839%20copy.jpeg");
+    }
+
+    #accmp-cover {
+        height: 100%;
+        background-image: linear-gradient(45deg, rgba(150, 0, 213, 0.6), rgba(0, 255, 215, 0.6));
+        background-position: center;
+    }
+
+    .acmp1num {
+        height: 185px;
+        width: 185px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+
+
+    .acmp1num h3 {
+        font-size: 220px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        color: #1c2c6a;
+        font-weight: 100;
+
+    }
+
+    .rowWrap {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .acmp1 p {
+        font-size: 19px;
+        margin-top: 15%;
+        padding-top: 5%;
+        margin: 0 auto;
+    }
 }

@@ -6,25 +6,24 @@ blue:                       #01bafd
 pink:                       #f10187
 
 -------------------------------------------------------*/
+
 /* general */
-html, body 
-{
+
+html,
+body {
     height: 100%;
 }
 
-body
-{
+body {
     font-family: "lato";
     height: 100vh;
 }
 
-h3 
-{
+h3 {
     text-transform: none;
 }
 
-p
-{
+p {
     color: gray;
     font-weight: 300;
 }
@@ -33,8 +32,8 @@ p
 /*-------------------------------------------------------
 generic buttons style
 -------------------------------------------------------*/
-.btn-general 
-{
+
+.btn-general {
     border-color: white;
     border-width: 2px;
     border-radius: 0;
@@ -42,26 +41,44 @@ generic buttons style
     font-size: 21px;
     font-weight: 300;
     font-family: "lato";
+    border-radius: 8px;
+    /*    box-shadow: 0px 5px #696969;*/
+    position: relative;
 }
 
-.btn-white
+
+/*.btn-general:hover
 {
+	box-shadow: 0 3px #696969;
+	top: 2px;
+}
+
+.btn-general:active
+{
+	box-shadow: 0 0px #696969;
+	top: 5px;
+}*/
+
+.btn-white {
     border-color: white;
     color: white;
 }
 
-.btn-white:hover, 
-.btn-white:focus 
-{
-    background-color: rgba(255,255,255, 0.3);
-    color: white;
+
+.btn-white:hover,
+.btn-white:focus {
+    /*        background-color: rgba(0,0,0, 0.3);*/
+    background-color: white;
+    /*    background-color: rgba(255,255,255, 0.3);*/
+    color: black;
+    font-weight: 300;
 }
 
 /*-------------------------------------------------------
 general custome parallax class
 -------------------------------------------------------*/
-.bg-parallax
-{
+
+.bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,23 +88,22 @@ general custome parallax class
 /*-------------------------------------------------------
 animation
 -------------------------------------------------------*/
-#home-cover, #home-heading, #home-btn
-{
+
+#home-cover,
+#home-heading,
+#home-btn {
     animation-duration: 0.5s;
 }
 
-#home-cover 
-{
+#home-cover {
     animation-delay: 0.1s;
 }
 
-#home-heading
-{
+#home-heading {
     animation-delay: 0.1s;
 }
 
-#home-btn
-{
+#home-btn {
     animation-delay: 0.75s;
 }
 
@@ -95,44 +111,46 @@ animation
 /*-------------------------------------------------------
 generic content style
 -------------------------------------------------------*/
-.content-box
-{
+
+.content-box {
     padding: 60px 0 60px 0;
 }
 
-.content-title h3
-{
+.content-title h3 {
     font-size: 47px;
-    font-weight: 300;
+    font-weight: 100;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
-.content-title-white h3
-{
+.content-title-white h3 {
     color: white;
     text-align: center;
 }
 
-.content-title-underline 
-{
+.content-title-underline {
     width: 61px;
     height: 3px;
-    background-color: #01bafd;
+    background-color: #00ffe9;
     margin: 0 auto 31px auto;
 }
 
+.content-title-underline-right {
+    width: 61px;
+    height: 3px;
+    background-color: #00ffe9;
+    margin-top: 7px;
+}
 
 /*-------------------------------------------------------
 generic social media icons style
 -------------------------------------------------------*/
-.social-list
-{
+
+.social-list {
     padding-left: 0;
 }
 
-.social-list li
-{
+.social-list li {
     list-style: none;
     display: inline-block;
     width: 31px;
@@ -141,105 +159,96 @@ generic social media icons style
     margin-top: 11px;
 }
 
-.social-icon i 
-{
+.social-icon i {
     font-size: 29px;
 }
 
-.icon-gray i 
-{
+.icon-gray i {
     color: darkslategray;
 }
 
-.icon-white i 
-{
+.icon-white i {
     color: white;
 }
 
-.social-icon i:hover
-{
-    color: #01bafd;
+.social-icon i:hover {
+    color: #00ffe9;
 }
 
 
 /*-------------------------------------------------------
 navigation bar
 -------------------------------------------------------*/
-.navbar-brand
-{
+
+.navbar-brand {
     padding: 0;
     margin: 0;
 }
 
-.navbar
-{
+.navbar {
     transition: all .5s ease-in-out;
-    padding-top: 5px;
-    padding-bottom: 5px;
-   /* background-color: white*/
+
+    /* background-color: white*/
     /*background: rgba(0,0,0,0.79);*/
 }
 
-.scroll-top-nav
-{
-    /*background-color: #96b573;*/
-    background: rgba(0,0,0,0.79);
+
+.navbar-nav {
+    float: right;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-.custome-nav-wrapper
-{
-    padding-right: 3%;
+
+.scroll-top-nav {
+    /*background-color: #96b573;*/
+    background: rgba(0, 0, 0, 0.79);
+}
+
+.custome-nav-wrapper {
     padding-left: 5%;
     padding-top: 0.5%;
     padding-bottom: 0;
 }
 
-.navbar-nav
-{
-    float: right;
-    
-}
 
-.navbar-nav > li > a 
-{
+.navbar-nav > li > a {
     font-weight: 300;
     margin-bottom: 0;
     color: white;
     font-size: 21px;
-   /* text-shadow: 2px 1px 0px black;*/
+    /* text-shadow: 2px 1px 0px black;*/
 }
 
 .navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus
-{
+.navbar-nav > li > a:focus {
     background: none;
     color: #fff;
-   /* color: #01bafd;*/
+    /* color: #01bafd;*/
     /*color: #96b573;*/
     font-weight: 600;
 }
 
-.navbar-toggle
-{
-    background-color: rgba(0,0,0,0.1);
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid white;
     border-radius: 0;
 }
 
-.navbar-toggle .icon-bar
-{
+.navbar-toggle .icon-bar {
     background-color: white;
 }
 
-.navbar-collapse
-{
+.navbar-collapse {
     max-height: none !important;
 }
 
-.navbar-nav a.current
-{
-  /*  background: #01bafd;*/
-   /* background: #96b573;*/
+.navbar-nav a.current {
+    /*  background: #01bafd;*/
+    /* background: #96b573;*/
     background: #fff;
     color: #000;
     border-radius: 25px;
@@ -249,69 +258,65 @@ navigation bar
 /*-------------------------------------------------------
 footer section
 -------------------------------------------------------*/
-#footer
-{
+
+#footer {
     background-color: dimgray;
+    padding-top: 30px;
 }
 
-#copyrights p
-{
+#copyrights p {
     color: white;
     margin-bottom: 0;
     margin-left: 11px;
 }
 
-#footer-left p
-{
+#footer-left p {
     color: white;
 }
 
-#footer-left h3
-{
+#footer-left h3 {
     color: white;
 }
 
 /*-------------------------------------------------------
 generic page heading graphics and titles
 -------------------------------------------------------*/
-.generic-home
-{
-    height: 61%;
 
+.generic-home {
+    height: 71%;
 }
 
-.generic-content-box
-{
+.generic-content-box {
     width: 100%;
     height: 100%;
     display: table;
-    background-color: rgba(100,50,200,0.3);
+    background-color: rgba(100, 50, 200, 0.3);
+    /*    background: linear-gradient(45deg, yellow -20%,darkorange -90%, purple 90%);*/
 }
 
-.generic-content-box-other
-{
+.generic-content-box-other {
     width: 100%;
     height: 100%;
     display: table;
 }
 
-.generic-content-box-inner
-{
+.generic-content-box-inner {
     display: table-cell;
     vertical-align: bottom;
 }
 
 
-.generic-cover-heading h3
-{
+.generic-cover-heading h3 {
     font-family: "lato";
     color: #FFF;
     font-size: 71px;
     font-weight: 300;
     margin: 20px 0 23px 2.9%;
-    background-color: #f10187;
     text-align: left;
-    display:table;
+    display: table;
+    color: #fff;
+    padding: 15px;
+    border-radius: 11px;
 }
 
 
@@ -327,18 +332,16 @@ collapsing section
     height: 51px;
 }*/
 
-.fa-arrow-down
-{
+.fa-arrow-down {
     color: white;
 }
 
 
-.bounce 
-{
+.bounce {
     position: fixed;
-    animation:  2s infinite;
-  }
-  
+    animation: 2s infinite;
+}
+
 .click-space {
 
     color: #fff;
@@ -349,7 +352,7 @@ collapsing section
     height: 100px;
     width: 100px;
     line-height: 100px;
-    bottom: 20px; 
+    bottom: 20px;
 }
 
 
@@ -362,12 +365,12 @@ collapsing section
     height: 41px;
     width: 41px;
     vertical-align: middle;
-  
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(45deg);
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(45deg);
 }
 
 
@@ -379,8 +382,38 @@ collapsing section
 /*-------------------------------------------------------
 home page welcome section
 -------------------------------------------------------*/
-#home
-{
+
+.accmp-single-sec {
+    height: 100vh;
+}
+
+
+.art h2 {
+    font-family: "lato";
+    font-size: 39px;
+    color: #000;
+}
+
+
+.art {
+    padding: 51px;
+}
+
+
+.art p {
+    font-size: 17px;
+}
+
+
+.accmp-pic {
+    height: 450px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#home {
     height: 100%;
     width: 100%;
     background-image: url("../img/group-front-resize.jpg");
@@ -390,58 +423,49 @@ home page welcome section
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh; 
-    
+    height: 100vh;
 }
 
-#home-cover
-{
+
+#home-cover {
     height: 100%;
-    background-color: rgba(45,0,50,0.4);
+    background-image: linear-gradient(-45deg, rgba(44, 216, 213, 0.65) 0%, rgba(107, 141, 214, 0.65) 48%, rgba(142, 55, 215, 0.65) 100%);
 }
 
-#home-content-box
-{
+#home-content-box {
     width: 100%;
     height: 100%;
     display: table;
 }
 
-#home-content-box-inner
-{
+#home-content-box-inner {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
 }
 
 
-#home-heading h3
-{
-    font-family: "lato";
-    font-weight: 100;
+#home-heading h3 {
+    /*    font-family: "lato";*/
+    /*font-family: 'Julius Sans One', sans-serif;*/
+    font-family: 'Poiret One', cursive;
+    /*text-transform: uppercase;*/
+    /*    font-weight: 100;*/
     color: #FFF;
     text-align: center;
     font-size: 91px;
     margin: 20px 0 20px 0;
-    text-shadow: 0.5px 0.5px 0px white;
+    /*    text-shadow: 0.5px 0.5px 0px white;*/
 }
 
-.art h2
-{
-    font-family: "lato";
-    font-size: 41px;
-    color: #000;
-}
 
-.art
+/*
+.accmp-pic
 {
-    padding: 71px;
+    height: 451px;
 }
+*/
 
-.art p 
-{
-    font-size: 17px;
-}
 /*.right-icon
 {
     float: right;
@@ -463,33 +487,37 @@ home page welcome section
 }
 */
 
-.accmp-pic
-{
-    height: 451px;
-}
+/*
+
+
 /*-------------------------------------------------------
 ABOUT US PAGE
 -------------------------------------------------------*/
-#about-cover
-{
-    height: 100%;
+
+#about-home {
     background-image: url("../img/serenafilter2.JPG");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
+
 }
 
-#right-underline
-{
+#about-cover {
+    height: 100%;
+    /*    background-image: linear-gradient(-45deg, rgba(255,0,213,0.4) 0%, rgba(0,255,215,0.4) 100%);*/
+    background-image: linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
+
+    /*    background-image: linear-gradient(to right, rgba(131,96,195,0.5) ,rgba(46,191,145, 0.5));*/
+}
+
+#right-underline {
     width: 61px;
     height: 3px;
-    background-color: #01bafd;
-    margin: 0 23% 0 auto;   
+    background-color: #00ffe9;
+    margin: 0 23% 0 auto;
 }
 
-#diagonal-pic
-{
+#diagonal-pic {
     background-image: url("../img/fullguyholdingsignfilter.JPG");
     float: left;
     background-position: left;
@@ -500,8 +528,7 @@ ABOUT US PAGE
     border-right: 200px solid white;
 }
 
-.art2
-{
+.art2 {
     padding-bottom: 23px;
     padding-top: 23px;
     font-size: 19px;
@@ -510,8 +537,7 @@ ABOUT US PAGE
 
 }
 
-.art3
-{
+.art3 {
     padding-left: 13%;
     padding-right: 13%;
     padding-bottom: 23px;
@@ -520,8 +546,7 @@ ABOUT US PAGE
 }
 
 
-.mission-headline h2
-{
+.mission-headline h2 {
     font-size: 41px;
     text-align: center;
     font-family: "lato";
@@ -529,28 +554,96 @@ ABOUT US PAGE
     padding-bottom: 0px;
 }
 
-.about-headline2 h3
-{
+.about-headline2 h3 {
     text-align: center;
     font-family: "lato";
     font-size: 31px;
 }
 
+
+/*-------------------------------------------------------
+accomplishments (formely vote yes) page
+-------------------------------------------------------*/
+
+#accmp-home {
+    background-image: url("../img/IMG_3839.jpeg");
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+#accmp-cover {
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(150, 0, 213, 0.6), rgba(0, 255, 215, 0.6));
+}
+
+.acmp1 {
+
+    /*    background-color: #fce95f;*/
+    background-color: rgba(150, 0, 213, 0.5);
+    /*        background-image: linear-gradient(45deg, rgba(150,0,213,0.6) , rgba(0,255,215,0.6));*/
+    height: 200px;
+    display: block;
+    margin: 30px;
+}
+
+.acmp1num {
+    /*    background-color: #6f2524;*/
+    background-color: rgba(0, 255, 215, 0.6);
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.acmp1:hover {
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+}
+
+.acmp1num h3 {
+    font-size: 275px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #1c2c6a;
+    font-weight: 100;
+}
+
+.rowWrap {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.acmp1 p {
+    color: white;
+    font-size: 23px;
+    margin-top: 6%;
+}
+
+
 /*-------------------------------------------------------
 cal of events page
 -------------------------------------------------------*/
-#cal-events-cover
-{
-    height: 100%;
+
+#cal-home {
     background-image: url("../img/marypirg-girl-holding-sign.jpeg");
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
 }
 
+#cal-events-cover {
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
 
-#cal-style
-{
+}
+
+#cal-style {
     padding-right: 11%;
     padding-left: 11%;
     padding-bottom: 283px;
@@ -561,54 +654,74 @@ cal of events page
 /*-------------------------------------------------------
 get involved page
 -------------------------------------------------------*/
-#get-inv-cover
-{
-    height: 100%;
+
+#inv-home {
     background-image: url("../img/guytalkingps.jpg");
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     background-attachment: fixed;
 }
 
-.tex a
-{
+#get-inv-cover {
+    height: 100%;
+    background: linear-gradient(-45deg, rgba(155, 0, 104, 0.6), rgba(51, 251, 253, 0.6))
+}
+
+.tex1 a,
+.tex2 a,
+.tex3 a {
     padding-left: 0;
     margin-left: 0;
     font-family: "permanent marker";
-    color: #01bafd;
-    text-shadow: 1px 2.3px 1px #000;
+    color: #00ffe9;
+    text-shadow: 3px 2px 0px #474747;
     font-size: 37px;
     text-decoration-line: none;
     text-align: center;
 }
 
-.tex a:hover
-{
-    color: black;
-    text-shadow: 1px 3.7px 0px #01bafd;
+.tex1 {
+    margin: -30px;
 }
 
-.icon
-{
-    padding-top: 37px;
+.tex2 {
+    margin: -13px;
+}
+
+.tex3 {
+    margin: -11px;
+}
+
+.tex a:hover {
+    color: #000;
+    text-shadow: 1px 3.7px 0px #00ffe9;
+}
+
+.icon {
     text-align: center;
+    /*    height: 200px;*/
 }
 
+.icon:hover {
+    transform: scale(1.02);
+    transition: all .4s ease-in-out;
+}
+
+/*
 .icon i
 {
     font-size: 91px;
     text-shadow: 2px 2px 0px #01bafd;
     padding-top: 2.5%;
 }
+*/
 
-.icon i:hover
-{
-    color: #01bafd;
+.icon i:hover {
+    color: #00ffe9;
     text-shadow: 2px 2px 0px black;
 }
 
-.sub-sec-headline
-{
+.sub-sec-headline {
     font-size: 61px;
     font-family: "lato";
     font-weight: 600;
@@ -616,8 +729,7 @@ get involved page
     text-align: center;
 }
 
-.sub-sec-headline-big
-{
+.sub-sec-headline-big {
     font-size: 61px;
     font-family: "permanent marker";
     font-weight: 600;
@@ -627,129 +739,127 @@ get involved page
 }
 
 
-.sub-sec-headline h3, h2
-{
+.sub-sec-headline h3,
+h2 {
     text-align: left;
     padding-bottom: 31px;
     font-size: 37px;
-    color: #01bafd;
+    color: #00ffe9;
 }
 
-.sub-sec-headline h2
-{
+.sub-sec-headline h2 {
     color: #f10187;
 }
 
-.sub-sec-body
-{
+.sub-sec-body {
     padding-top: 23px;
     font-size: 19px;
 }
 
-.apply-now-style1
-{
+.apply-now-style1 {
     font-size: 23px;
     text-decoration: none;
     font-family: "lato";
-    color: #01bafd;
+    color: #00ffe9;
 }
 
-.apply-now-style1:hover
-{
-    text-decoration: none;    
+.apply-now-style1:hover {
+    text-decoration: none;
     color: #f10187;
 }
 
-#apply-now-style2
-{
+#apply-now-style2 {
     font-size: 51px;
     text-decoration: none;
     font-family: "permanent marker";
-    color: #01bafd;
+    color: #00ffe9;
 }
 
 #apply-now-style2 a,
-#apply-now-style3 a
-{
+#apply-now-style3 a {
     color: #f10187;
 }
-#apply-now-style3
-{
+
+#apply-now-style3 {
     font-size: 61px;
     text-decoration: none;
     font-family: "permanent marker";
-    color: #01bafd;
+    color: #00ffe9;
     text-shadow: 2px 3px 0px black;
 }
 
-.sec-pad
-{
+.sec-pad {
     padding-top: 141px;
 }
 
-#jobs-row-pad
-{
+#jobs-row-pad {
     padding-bottom: 283px;
 }
 
 /*-------------------------------------------------------
 Campaigns page
 -------------------------------------------------------*/
-#camp-body
-{
-    padding-top: 50px;
+
+.coming-soon h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 5em;
+    font-family: monospace;
+    color: gray;
 }
 
-#camp-cover
-{
-    height: 100%;
+#camp-home {
     background-image: url("../img/votetabletwitterfilter.JPG");
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
 }
 
-.camp-headline
-{
+
+#camp-body {
+    padding-top: 50px;
+}
+
+#camp-cover {
+    height: 100%;
+    background: linear-gradient(315deg, rgba(200, 62, 84, 0.6), rgba(7, 250, 133, 0.6))
+}
+
+.camp-headline {
     font-family: "lato";
     font-size: 51px;
-    color: #01bafd;
+    color: #00ffe9;
     padding-left: 7%;
 }
 
-.camp-p
-{
+.camp-p {
     font-size: 17px;
     padding-right: 13%;
     padding-left: 13%;
     padding-bottom: 11%;
 }
 
-.camp-sec h4
-{
+.camp-sec h4 {
     font-size: 19px;
     padding-left: 13%;
     padding-right: 13%
 }
 
-.coord-name
-{
+.coord-name {
     color: black;
 }
-.coord-email
-{
+
+.coord-email {
     float: right;
     padding-right: 13%;
-    color: #01bafd;
+    color: #00ffe9;
 }
 
-.hide-email
-{
+.hide-email {
     display: none;
 }
 
-.show-hide
-{
+.show-hide {
     height: 50px;
     width: 200px;
     text-align: right;
@@ -757,61 +867,57 @@ Campaigns page
     float: right;
 }
 
-.show-hide:hover .hide-email
-{
+.show-hide:hover .hide-email {
     display: block;
 }
 
-.show-hide:hover .show-mail
-{
+.show-hide:hover .show-mail {
     display: none;
 }
 
-.read-on-hide
-{
+.read-on-hide {
     display: none;
 }
 
-.read-on
-{
+.read-on {
     display: block;
 }
 
 
 
 .read-more-state {
-  display: none;
+    display: none;
 }
 
 .read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
 }
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
+    opacity: 1;
+    font-size: inherit;
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Read more';
+    content: 'Read more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Read less';
+    content: 'Read less';
 }
 
 .read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: #666;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
 }
 
 
@@ -819,35 +925,36 @@ Campaigns page
 /*-------------------------------------------------------
 contact us page
 -------------------------------------------------------*/
-#contact-cover
-{
-    height: 100%;
+
+#contact-home {
     background-image: url("../img/pirggrouppic.JPG");
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
+
 }
 
-#cont-head h3
-{
+#contact-cover {
+    height: 100%;
+    background: linear-gradient(45deg, rgba(170, 36, 36, 0.6), rgba(74, 186, 257, 0.6))
+}
+
+#cont-head h3 {
     padding: 19px;
     font-family: "lato";
     color: #000;
     font-size: 41px;
 }
 
-#cont-head
-{
+#cont-head {
     padding-bottom: 43px;
 }
 
-#contact-list li
-{
+#contact-list li {
     display: inline-block;
 }
 
-.contact-icon
-{
+.contact-icon {
     font-size: 51px;
     padding: 29px;
     color: #f10187;
@@ -855,56 +962,48 @@ contact us page
     padding-bottom: 107px;
 }
 
-#cont-left-body p
-{
+#cont-left-body p {
     font-size: 25.7px;
     color: black;
     padding: 37px;
 }
 
-#email-highlight{
+#email-highlight {
     color: #f10187;
 }
 
 #email-highlight:hover,
-.contact-icon:hover
-{
-    color: #01bafd;
+.contact-icon:hover {
+    color: #00ffe9;
 }
 
-#board-list li
-{
+#board-list li {
     list-style: none;
     font-size: 21px;
 }
 
-#board-list span
-{
+#board-list span {
     font-size: 17px;
 }
 
-#board-list
-{
+#board-list {
     text-align: center;
 }
 
-#brd-head
-{
-font-size: 31px;    
+#brd-head {
+    font-size: 31px;
 }
 
-.bd-mbr
-{
+.bd-mbr {
     font-size: 19px;
 }
 
-#board-mbr
-{   text-align: center;
+#board-mbr {
+    text-align: center;
     padding-bottom: 200px;
 }
 
-#board-mbr h3
-{
+#board-mbr h3 {
     text-align-last: center;
 }
 
@@ -914,131 +1013,59 @@ font-size: 31px;
 /*-------------------------------------------------------
 FAQ page
 -------------------------------------------------------*/
-#faq-cover
-{
-    height: 100%;
+
+#faq-home {
     background-image: url("../img/faq.jpg");
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
 }
 
-.faq-row
-{
+#faq-cover {
+    height: 100%;
+    background: linear-gradient(45deg, rgba(100, 0, 119, 0.6), rgba(70, 150, 0, 0.6));
+}
+
+.faq-row {
     padding-right: 11%;
     padding-left: 11%;
 }
 
 
-#faq-list 
-{
-    padding-top: 43px;
+#faq-list {
+    padding-top: 10px;
     padding-bottom: 53px;
     padding-left: 0;
     padding-right: 0;
 }
 
-#faq-list li a
-{
+#faq-list li a {
     font-size: 19px;
     color: black;
     font-family: lato;
 }
 
 
-.one_faq 
-{
-    padding-top: 63px;
-    padding-bottom: 19px;
+.one_faq {
+    padding-top: 73px;
+    padding-right: 17px;
+    padding-left: 17px;
+
 }
 
-.last-faq 
-{
+.last-faq {
     padding-bottom: 119px;
 }
 
-.question 
-{
+.question {
     font-size: 23px;
     font-style: italic;
 }
 
-.answer 
-{
+.answer {
     font-size: 17px;
     padding-top: 13px;
     color: gray;
     font-family: lato;
     font-weight: 300;
-}
-
-/*-------------------------------------------------------
-accomplishments (formely vote yes) page
--------------------------------------------------------*/
-#vote-cover
-{
-    height: 100%;
-    background-image: url("../img/diksha.JPG");
-    background-size: contain;
-    background-position: top;
-    background-attachment: fixed;
-}
-
-/*.other-home
-{
-    height: 100%;
-    background-image: url("../img/diksha.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-
-}
-*/
-
-.acmp1 {
-    
-    background-color: #fce95f;
-    height: 200px;
-    display: block;
-    margin: 30px;
-}
-
-.acmp1num
-{
-    background-color: #6f2524;
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin: 30px;
-    border-radius: 50%;
-}
-
-.acmp1:hover
-{
-    transform: scale(1.05);
-    transition: all .5s ease-in-out;
-}
-
-.acmp1num h3 
-{
-    font-size: 275px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #1c2c6a;
-}
-
-.rowWrap
-{
-margin-left: 5%;
-margin-right: 5%;
-}
-
-
-.acmp1 p 
-{
-    color: black;
-    font-size: 23px;
-    margin-top: 6%;
 }
