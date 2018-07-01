@@ -664,7 +664,7 @@ get involved page
 
 #get-inv-cover {
     height: 100%;
-    background: -webkit-linear-gradient(-45deg, rgba(155, 0, 104, 0.6), rgba(51, 251, 253, 0.6))
+    background: -webkit-linear-gradient(-45deg, rgba(155, 0, 104, 0.6), rgba(51, 251, 253, 0.6));
 }
 
 .tex1 a,
@@ -822,7 +822,7 @@ Campaigns page
 
 #camp-cover {
     height: 100%;
-    background: -webkit-linear-gradient(315deg, rgba(200, 62, 84, 0.6), rgba(7, 250, 133, 0.6))
+    background: -webkit-linear-gradient(315deg, rgba(200, 62, 84, 0.6), rgba(7, 250, 133, 0.6));
 }
 
 .camp-headline {
@@ -936,7 +936,7 @@ contact us page
 
 #contact-cover {
     height: 100%;
-    background: -webkit-linear-gradient(45deg, rgba(170, 36, 36, 0.6), rgba(74, 186, 257, 0.6))
+    background: -webkit-linear-gradient(45deg, rgba(170, 36, 36, 0.6), rgba(74, 186, 257, 0.6));
 }
 
 #cont-head h3 {
