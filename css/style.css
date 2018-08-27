@@ -38,7 +38,7 @@ generic buttons style
     border-width: 2px;
     border-radius: 0;
     padding: 7px 19px;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 300;
     font-family: "lato";
     border-radius: 8px;
@@ -205,7 +205,7 @@ navigation bar
 
 .scroll-top-nav {
     /*background-color: #96b573;*/
-    background: rgba(0, 0, 0, 0.79);
+    background: rgba(0, 0, 0, 0.70);
 }
 
 .custome-nav-wrapper {
@@ -214,6 +214,9 @@ navigation bar
     padding-bottom: 0;
 }
 
+.border-scroll {
+    border-bottom-color: transparent;
+}
 
 .navbar-nav > li > a {
     font-weight: 300;

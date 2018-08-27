@@ -15,10 +15,14 @@ $(function()
        if($(this).scrollTop() < 200)
           {
             $("nav").removeClass("scroll-top-nav");
+            $("ul").removeClass("border-scroll");
+
           } 
           else
           {
             $("nav").addClass("scroll-top-nav");
+            $("ul").addClass("border-scroll");
+
           }
     });
 });
