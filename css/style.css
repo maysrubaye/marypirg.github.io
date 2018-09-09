@@ -39,11 +39,12 @@ generic buttons style
     border-radius: 0;
     padding: 7px 19px;
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 500;
     font-family: "lato";
     border-radius: 8px;
     /*    box-shadow: 0px 5px #696969;*/
     position: relative;
+    background-color: rgba(255,255,255, 0.1);
 }
 
 
@@ -261,10 +262,32 @@ navigation bar
 /*-------------------------------------------------------
 footer section
 -------------------------------------------------------*/
+.list-foot {
+margin-top: 10px;
+}
 
-#footer {
+.footer-list {
+/*margin-top: 8%;*/
+list-style: none;
+    list-style-type: none;
+}
+
+.footer-list li a {
+    color: white;
+    font-weight: 300;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.footer-list li {
+    display: inline;
+    color: white;
+    font-size: 16px
+}
+
+
+.footer {
     background-color: dimgray;
-    padding-top: 30px;
 }
 
 #copyrights p {
@@ -280,6 +303,51 @@ footer section
 #footer-left h3 {
     color: white;
 }
+
+.footer-index {
+    background: -webkit-linear-gradient(-45deg, rgba(44, 216, 213, 0.65) 0%, rgba(142, 55, 215, 0.65) 100%);
+    padding-top: 30px;
+}
+
+.footer-about {
+    background: -webkit-linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);   
+    padding-top: 30px;        
+}
+
+.footer-intern {
+    background: -webkit-linear-gradient(45deg, rgba(100, 200, 119, 0.6), rgba(100, 0, 200, 0.6));
+    padding-top: 30px;            
+}
+
+.footer-acmp {
+    background: -webkit-linear-gradient(45deg, rgba(150, 0, 213, 0.6), rgba(0, 255, 215, 0.6));
+    padding-top: 30px;        
+}
+.footer-cal {
+    background: -webkit-linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
+    padding-top: 30px;    
+}
+.footer-inv {
+    padding-top: 30px;
+    background: -webkit-linear-gradient(-45deg, rgba(155, 0, 104, 0.6), rgba(51, 251, 253, 0.6));
+
+}
+.footer-camp {
+    padding-top: 30px;
+    background: -webkit-linear-gradient(315deg, rgba(200, 62, 84, 0.6), rgba(7, 250, 133, 0.6));
+    
+}
+
+.footer-contact {    
+    background: -webkit-linear-gradient(45deg, rgba(170, 36, 36, 0.6), rgba(74, 186, 257, 0.6));    
+    padding-top: 30px;
+}
+
+.footer-faq {
+    padding-top: 30px;
+    background: -webkit-linear-gradient(45deg, rgba(100, 0, 119, 0.6), rgba(70, 150, 0, 0.6));
+}
+
 
 /*-------------------------------------------------------
 generic page heading graphics and titles
@@ -432,7 +500,7 @@ home page welcome section
 
 #home-cover {
     height: 100%;
-    background-image: -webkit-linear-gradient(-45deg, rgba(44, 216, 213, 0.65) 0%, rgba(107, 141, 214, 0.65) 48%, rgba(142, 55, 215, 0.65) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(44, 216, 213, 0.65) 0%, rgba(142, 55, 215, 0.65) 100%);
 }
 
 #home-content-box {
@@ -508,7 +576,7 @@ ABOUT US PAGE
 #about-cover {
     height: 100%;
     /*    background-image: linear-gradient(-45deg, rgba(255,0,213,0.4) 0%, rgba(0,255,215,0.4) 100%);*/
-    background-image: -webkit-linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
 
     /*    background-image: linear-gradient(to right, rgba(131,96,195,0.5) ,rgba(46,191,145, 0.5));*/
 }
@@ -519,7 +587,9 @@ ABOUT US PAGE
     background-color: #00ffe9;
     margin: 0 23% 0 auto;
 }
-
+.diagonal-color{
+    background: -webkit-linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
+}
 #diagonal-pic {
     background-image: url("../img/fullguyholdingsignfilter.JPG");
     float: left;
@@ -579,7 +649,7 @@ accomplishments (formely vote yes) page
 
 #accmp-cover {
     height: 100%;
-    background-image: -webkit-linear-gradient(45deg, rgba(150, 0, 213, 0.6), rgba(0, 255, 215, 0.6));
+    background: -webkit-linear-gradient(45deg, rgba(150, 0, 213, 0.6), rgba(0, 255, 215, 0.6));
 }
 
 .acmp1 {
@@ -642,7 +712,7 @@ cal of events page
 
 #cal-events-cover {
     height: 100%;
-    background-image: -webkit-linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
+    background: -webkit-linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
 
 }
 
@@ -657,7 +727,6 @@ cal of events page
 /*-------------------------------------------------------
 get involved page
 -------------------------------------------------------*/
-
 #inv-home {
     background-image: url("../img/guytalkingps.jpg");
     background-size: cover;
@@ -1050,7 +1119,8 @@ FAQ page
 
 
 .one_faq {
-    padding-top: 73px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-right: 17px;
     padding-left: 17px;
 
@@ -1072,3 +1142,35 @@ FAQ page
     font-family: lato;
     font-weight: 300;
 }
+
+
+
+
+/*-------------------------------------------------------
+get involved page
+-------------------------------------------------------*/
+#intern-pos-home {
+    background-image: url("../img/intern3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#intern-pos-cover {
+    height: 100%;
+    background: -webkit-linear-gradient(45deg, rgba(100, 200, 119, 0.6), rgba(100, 0, 200, 0.6));
+}
+
+.question-intern {
+    font-size: 23px;
+    
+}
+
+.answer {
+    font-size: 17px;
+    padding-top: 13px;
+    color: gray;
+    font-family: lato;
+    font-weight: 300;
+}
+
