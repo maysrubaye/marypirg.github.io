@@ -1854,6 +1854,11 @@ medium phone landscape
     .generic-home {
         height: 50%;
     }
+    
+    
+    #intern-pos-home {
+        background-image: url("../img/cropped2-intern3.jpg");
+    }
 
     /***************home page ***************/
     #home {
