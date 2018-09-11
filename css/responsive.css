@@ -1858,7 +1858,7 @@ medium phone landscape
     
     #intern-pos-home {
         background-image: url("../img/cropped2-intern3.jpg");
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-attachment: fixed;
 
