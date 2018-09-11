@@ -419,7 +419,7 @@ css media queries
     }
     #about-cover {
         height: 100%;
-        background-image: linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
+        background: linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
     }
 
     #diagonal-pic {
@@ -449,7 +449,7 @@ css media queries
 
     #cal-events-cover {
         height: 100%;
-        background-image: linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
+        background: linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
 
     }
 
@@ -1863,6 +1863,12 @@ medium phone landscape
         background-attachment: fixed;
 
     }
+    
+    #intern-pos-cover {
+    height: 100%;
+    background: -webkit-linear-gradient(45deg, rgba(100, 200, 119, 0.6), rgba(100, 0, 200, 0.6));
+    }
+
 
     /***************home page ***************/
     #home {
@@ -1921,7 +1927,7 @@ medium phone landscape
     }
     #about-cover {
         height: 100%;
-        background-image: linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
+        background: linear-gradient(45deg, rgba(0, 159, 255, 0.6) 0%, rgba(236, 47, 75, 0.6) 100%);
     }
 
     #diagonal-pic {
@@ -1951,7 +1957,7 @@ medium phone landscape
 
     #cal-events-cover {
         height: 100%;
-        background-image: linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
+        background: linear-gradient(45deg, rgba(150, 7, 77, 0.6), rgba(50, 255, 151, 0.6));
 
     }
 
@@ -2089,7 +2095,7 @@ medium phone landscape
 
     #accmp-cover {
         height: 100%;
-        background-image: -webkit-linear-gradient(45deg, rgba(150, 0, 213, 0.6), rgba(0, 255, 215, 0.6));
+        background: -webkit-linear-gradient(45deg, rgba(150, 0, 213, 0.6), rgba(0, 255, 215, 0.6));
         background-position: center;
     }
 
