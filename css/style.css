@@ -35,7 +35,7 @@ generic buttons style
 
 .btn-general {
     border-color: white;
-    border-width: 2px;
+    border-width: 1.3px;
     border-radius: 0;
     padding: 7px 19px;
     font-size: 19px;
@@ -44,7 +44,7 @@ generic buttons style
     border-radius: 8px;
     /*    box-shadow: 0px 5px #696969;*/
     position: relative;
-    background-color: rgba(255,255,255, 0.1);
+/*    background-color: rgba(255,255,255, 0.35);*/
 }
 
 
@@ -143,6 +143,12 @@ generic content style
     margin-top: 7px;
 }
 
+.generic-heading {
+    font-family: "lato";
+    font-size: 39px;
+    color: #000;
+
+}
 /*-------------------------------------------------------
 generic social media icons style
 -------------------------------------------------------*/
@@ -823,6 +829,10 @@ h2 {
     color: #f10187;
 }
 
+.inv {
+font-size: 39px;
+}
+
 .sub-sec-body {
     padding-top: 23px;
     font-size: 19px;
@@ -832,31 +842,31 @@ h2 {
     font-size: 23px;
     text-decoration: none;
     font-family: "lato";
-    color: #00ffe9;
+    color: #f10187;
 }
 
 .apply-now-style1:hover {
     text-decoration: none;
-    color: #f10187;
+    color: #00ffe9;
 }
 
 #apply-now-style2 {
     font-size: 51px;
     text-decoration: none;
     font-family: "permanent marker";
-    color: #00ffe9;
+    color: #f10187;
 }
 
 #apply-now-style2 a,
 #apply-now-style3 a {
-    color: #f10187;
+    color: #00ffe9;
 }
 
 #apply-now-style3 {
     font-size: 61px;
     text-decoration: none;
     font-family: "permanent marker";
-    color: #00ffe9;
+    color: #f10187;
     text-shadow: 2px 3px 0px black;
 }
 
@@ -897,12 +907,16 @@ Campaigns page
     background: -webkit-linear-gradient(315deg, rgba(200, 62, 84, 0.6), rgba(7, 250, 133, 0.6));
 }
 
+
 .camp-headline {
+/*
     font-family: "lato";
     font-size: 51px;
     color: #888888;
-    padding-left: 7%;
+*/
+    padding-left: 13%;
 }
+
 
 .camp-p {
     font-size: 17px;
