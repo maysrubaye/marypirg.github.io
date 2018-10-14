@@ -3,7 +3,7 @@ font family: Open Sans, permanent marker
 
 colors:
 blue:                       #01bafd
-pink:                       #f10187
+red:                       #ce2721
 
 -------------------------------------------------------*/
 
@@ -193,6 +193,7 @@ navigation bar
 }
 
 .navbar {
+    padding-right: 9%;
     transition: all .5s ease-in-out;
 
     /* background-color: white*/
@@ -216,8 +217,7 @@ navigation bar
 }
 
 .custome-nav-wrapper {
-    padding-left: 5%;
-    padding-top: 0.5%;
+    padding-left: 3%;
     padding-bottom: 0;
 }
 
@@ -229,7 +229,7 @@ navigation bar
     font-weight: 300;
     margin-bottom: 0;
     color: white;
-    font-size: 21px;
+    font-size: 19px;
     /* text-shadow: 2px 1px 0px black;*/
 }
 
@@ -246,6 +246,7 @@ navigation bar
     background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid white;
     border-radius: 0;
+    z-index: 999;
 }
 
 .navbar-toggle .icon-bar {
@@ -264,6 +265,64 @@ navigation bar
     border-radius: 25px;
 }
 
+
+/*-------------------------------------------------------
+blog button style
+-------------------------------------------------------*/
+.custome-nav-wrapper-blog {
+    padding-left: 3%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.blog-style {
+ padding-right: 0;   
+}
+
+.navbar-nav-blog {
+    border-bottom-color: transparent;
+    background-color: black
+}
+
+.blog {
+    display: block;
+    position: relative;
+}
+
+.cont {
+    margin-left: 86%;
+    display: block;
+    height: 150px;
+    width: 120px;
+    background-image: url("../img/Asset4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.txt-blog1 {
+
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+/*    text-shadow: 1px 1px black;*/
+}
+
+.txt-blog2 {
+    margin-top: -37px;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    font-family: "Permanent Marker";
+    color: #ce2721;
+    text-shadow: 1px 1px 1px black;
+}
 
 /*-------------------------------------------------------
 footer section
@@ -805,7 +864,7 @@ get involved page
     font-size: 61px;
     font-family: "lato";
     font-weight: 600;
-    color: #f10187;
+    color: #ce2721;
     text-align: center;
 }
 
@@ -813,7 +872,7 @@ get involved page
     font-size: 61px;
     font-family: "permanent marker";
     font-weight: 600;
-    color: #f10187;
+    color: #ce2721;
     text-shadow: 2px 2px 0px black;
     text-align: center;
 }
@@ -828,7 +887,7 @@ h2 {
 }
 
 .sub-sec-headline h2 {
-    color: #f10187;
+    color: #ce2721;
 }
 
 .inv {
@@ -844,7 +903,7 @@ font-size: 39px;
     font-size: 23px;
     text-decoration: none;
     font-family: "lato";
-    color: #f10187;
+    color: #ce2721;
 }
 
 .apply-now-style1:hover {
@@ -856,7 +915,7 @@ font-size: 39px;
     font-size: 51px;
     text-decoration: none;
     font-family: "permanent marker";
-    color: #f10187;
+    color: #ce2721;
 }
 
 #apply-now-style2 a,
@@ -868,7 +927,7 @@ font-size: 39px;
     font-size: 61px;
     text-decoration: none;
     font-family: "permanent marker";
-    color: #f10187;
+    color: #ce2721;
     text-shadow: 2px 3px 0px black;
 }
 
@@ -1045,7 +1104,7 @@ contact us page
 .contact-icon {
     font-size: 51px;
     padding: 29px;
-    color: #f10187;
+    color: #ce2721;
     text-shadow: 2px 2px 0px black;
     padding-bottom: 107px;
 }
@@ -1057,7 +1116,7 @@ contact us page
 }
 
 #email-highlight {
-    color: #f10187;
+    color: #ce2721;
 }
 
 #email-highlight:hover,
