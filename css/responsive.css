@@ -1839,7 +1839,7 @@ medium phone landscape
 ***********************phone portrait*************************
 *************************************************************/
 
-@media (max-width: 414px) {
+@media (max-width: 800px) {
     .generic-cover-heading h3 {
         font-family: lato, sans-serif;
         font-size: 35px;
