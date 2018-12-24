@@ -44,6 +44,7 @@ generic buttons style
     border-radius: 8px;
     /*    box-shadow: 0px 5px #696969;*/
     position: relative;
+
 /*    background-color: rgba(255,255,255, 0.35);*/
 }
 
@@ -63,6 +64,7 @@ generic buttons style
 .btn-white {
     border-color: white;
     color: white;
+    text-shadow: 0px 0px 30px #000;
 }
 
 
@@ -539,7 +541,7 @@ home page welcome section
 
 
 .art {
-    padding: 51px;
+    padding: 50px;
 }
 
 
@@ -552,8 +554,13 @@ home page welcome section
     height: 450px;
     padding: 0;
     margin: 0;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .3);
 }
 
+.accmp-pic:hover {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
+}
 
 
 #home {
@@ -592,6 +599,7 @@ home page welcome section
     /*    font-family: "lato";*/
     /*font-family: 'Julius Sans One', sans-serif;*/
     font-family: 'Poiret One', cursive;
+    text-shadow: 0px 0px 100px #151515;
     /*text-transform: uppercase;*/
     /*    font-weight: 100;*/
     color: #FFF;
@@ -601,37 +609,16 @@ home page welcome section
     /*    text-shadow: 0.5px 0.5px 0px white;*/
 }
 
-
-/*
-.accmp-pic
-{
-    height: 451px;
-}
-*/
-
-/*.right-icon
-{
-    float: right;
-   font-size: 17em;
-    padding-right: 7%;
-    padding-left: 5%;
-    color: #01bafd;
-    text-shadow: 5px 5px 0px black;
+.home-card {
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .15);
 }
 
-.left-icon
-{
-    float: left;
-    font-size: 17em;
-    padding-right: 7%;
-    padding-left: 5%;
-    color: #01bafd;
-    text-shadow: 5px 5px 0px black;
+
+.home-card:hover {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
 }
-*/
-
-/*
-
 
 /*-------------------------------------------------------
 ABOUT US PAGE
@@ -688,6 +675,7 @@ ABOUT US PAGE
     padding-bottom: 23px;
     padding-top: 0;
     font-size: 19px;
+
 }
 
 
@@ -727,11 +715,14 @@ accomplishments (formely vote yes) page
 .acmp1 {
 
     /*    background-color: #fce95f;*/
-    background-color: #ce2721;
+    background-color: #fff;
     /*        background-image: linear-gradient(45deg, rgba(150,0,213,0.6) , rgba(0,255,215,0.6));*/
     height: 200px;
     display: block;
     margin: 30px;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .15);
 }
 
 .acmp1num {
@@ -742,11 +733,12 @@ accomplishments (formely vote yes) page
     display: block;
     margin: 30px;
     border-radius: 50%;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .2);
 }
 
 .acmp1:hover {
     transform: scale(1.05);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .acmp1num h3 {
@@ -765,7 +757,7 @@ accomplishments (formely vote yes) page
 
 
 .acmp1 p {
-    color: white;
+    color: black;
     font-size: 23px;
     margin-top: 6%;
 }
@@ -793,7 +785,6 @@ cal of events page
     padding-left: 11%;
     padding-bottom: 283px;
 }
-
 
 
 /*-------------------------------------------------------
@@ -944,6 +935,25 @@ font-size: 39px;
     padding-bottom: 283px;
 }
 
+.involved-card {
+        padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .15);
+}
+
+.involved-card:hover {
+        transform: scale(1.05);
+    transition: all .2s ease-in-out;
+
+}
+
+.involved-card-text {
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+
 /*-------------------------------------------------------
 Campaigns page
 -------------------------------------------------------*/
@@ -988,8 +998,19 @@ Campaigns page
     font-size: 17px;
     padding-right: 13%;
     padding-left: 13%;
-    padding-bottom: 11%;
+
 }
+
+.camp-sec-wrapper {
+    padding-bottom: 6%;
+    padding-top: 5%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .2);
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+
 
 .camp-sec h4 {
     font-size: 19px;
@@ -1070,6 +1091,13 @@ Campaigns page
     line-height: 2;
     border: 1px solid #ddd;
     border-radius: .25em;
+}
+
+
+.camp-sec-wrapper:hover {
+        transform: scale(1.05);
+    transition: all .2s ease-in-out;
+
 }
 
 
@@ -1246,11 +1274,50 @@ intern pos page
     
 }
 
-.answer {
+.intern-p {
     font-size: 17px;
-    padding-top: 13px;
     color: gray;
     font-family: lato;
     font-weight: 300;
 }
+.inter-total-p {
+    font-size: 17px;
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-right: 7%;
+    margin-left: 7%;
+
+}
+
+.intern-sec-wrapper {
+    padding-bottom: 6%;
+    padding-top: 5%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .2);
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+
+.intern-apply {
+    text-align: center;
+    text-decoration: none;
+}
+
+.intern-apply a {
+    text-decoration: none;
+    color: #ce2721;
+
+}
+
+.intern-apply a:hover {
+    text-decoration: underline;
+}
+
+.intern-sec-wrapper:hover {
+        transform: scale(1.05);
+    transition: all .2s ease-in-out;
+
+}
+
 
