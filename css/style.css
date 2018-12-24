@@ -1302,6 +1302,11 @@ intern pos page
 .intern-apply {
     text-align: center;
     text-decoration: none;
+        font-family: "permanent marker";
+    font-weight: 600;
+    color: #ce2721;
+    text-shadow: 2px 2px 0px black;
+    text-align: center;
 }
 
 .intern-apply a {
