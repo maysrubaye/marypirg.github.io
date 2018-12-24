@@ -1317,7 +1317,6 @@ intern pos page
 .intern-apply a {
     text-decoration: none;
     color: #ce2721;
-
 }
 
 .intern-apply a:hover {
@@ -1329,3 +1328,22 @@ intern pos page
     transition: all .2s ease-in-out;
 
 }
+
+.apply-wrapper {
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .2);
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 2%;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.apply-wrapper:hover {
+    cursor: pointer;
+    background-color: #444444;
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
+}
+

@@ -2173,5 +2173,18 @@ medium phone landscape
         font-size: 20px;
     }
 
+.apply-wrapper {
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .2);
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 2%;
+}
+
+.intern-apply a {
+    text-decoration: none;
+    color: #ce2721;
+    font-style: 10px;
+}
 
 }
