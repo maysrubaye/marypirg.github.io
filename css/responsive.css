@@ -1835,6 +1835,12 @@ medium phone landscape
 
 
 
+
+
+
+
+
+
 /*************************************************************
 ***********************phone portrait*************************
 *************************************************************/
@@ -1858,6 +1864,9 @@ medium phone landscape
         height: 50%;
     }
     
+    .inv {
+        font-size: 25px;
+    }
     
     #intern-pos-home {
         background-image: url("../img/cropped2-intern3.jpg");
@@ -2135,3 +2144,13 @@ medium phone landscape
     }
 }
 
+
+
+@media (max-width: 400px) {
+
+    .inv {
+        font-size: 20px;
+    }
+
+
+}
